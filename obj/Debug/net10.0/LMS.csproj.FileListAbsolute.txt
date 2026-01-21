@@ -1,0 +1,14 @@
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.AssemblyInfoInputs.cache
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.AssemblyInfo.cs
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.csproj.CoreCompileInputs.cache
+C:\Users\gowth\source\repos\LMS\bin\Debug\net10.0\LMS.exe
+C:\Users\gowth\source\repos\LMS\bin\Debug\net10.0\LMS.deps.json
+C:\Users\gowth\source\repos\LMS\bin\Debug\net10.0\LMS.runtimeconfig.json
+C:\Users\gowth\source\repos\LMS\bin\Debug\net10.0\LMS.dll
+C:\Users\gowth\source\repos\LMS\bin\Debug\net10.0\LMS.pdb
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.dll
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\refint\LMS.dll
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.pdb
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\LMS.genruntimeconfig.cache
+C:\Users\gowth\source\repos\LMS\obj\Debug\net10.0\ref\LMS.dll
