@@ -12,3 +12,22 @@ Complete oops concepts, hands on
 
 
 **Issues faced:** none
+
+---
+# 20.01.2026
+
+**What I have done:**<br> 
+OOPs concepts (C# Properties <br>
+C# Inheritance <br>
+C# Polymorphism <br>
+C# Abstraction<br>
+C# Interface<br>
+C# Enums)
+
+**What I will do next:**<br>
+Workout realtime problem 
+
+
+**Issues faced:** none
+
+
