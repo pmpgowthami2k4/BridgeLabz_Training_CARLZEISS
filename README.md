@@ -30,4 +30,50 @@ Workout realtime problem
 
 **Issues faced:** none
 
+---
+
+# 21.01.2026
+
+**What I have done:**<br> 
+Library management system using oops and c# covering topics: 
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Composition
+Aggregation 
+
+Issues faced: none
+
+**What I will do next:**<br>
+Perfect oops
+
+
+**Issues faced:** none
+
+---
+# 22.01.2026
+
+**What I have done:**<br> 
+studied UML diagrams(class diagram, object diagram, sequence diagram) worked on "school result" problem.
+improving proficiency with oops concepts
+<br>
+understood the need, reason and implemented:
+inheritance
+polymorphism
+abstraction
+interfaces
+encapsulation
+constructors 
+
+Issues faced: none
+
+**What I will do next:**<br>
+revise and fill gaps in oops, go through the course material provided
+
+
+
+**Issues faced:** none
+
+
 
