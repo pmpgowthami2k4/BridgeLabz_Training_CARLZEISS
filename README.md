@@ -75,5 +75,59 @@ revise and fill gaps in oops, go through the course material provided
 
 **Issues faced:** none
 
+---
+
+# 23.01.26
+<br>
+
+
+**What I have done:** <br>
+Solve snakes and ladders problem
+https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/OOPs/snakeandladders
+<br>
+<br>
+**What I will do next:** <br>
+Practice problems on oops
+<br>
+<br>
+**Issues faced:** none
+
+---
+
+# 24.01.26 <br>
+
+**What I have done:** <br>
+Practiced problem from material shared, Solve Employee wage problem till uc 10
+<br>
+<br>
+
+**What I will do next:** <br>
+Adv oops
+<br>
+<br>
+
+**Issues faced:** none
+
+---
+
+# 27.01.26 <br>
+
+**What I have done:** <br>
+Practiced problems<br>
+<br>
+
+**What I will do next:** <br>
+DSA in C#<br>
+<br>
+
+**Issues faced:** none
+
+
+
+
+
+
+
+
 
 
