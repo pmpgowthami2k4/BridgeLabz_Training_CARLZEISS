@@ -121,10 +121,38 @@ DSA in C#<br>
 <br>
 
 **Issues faced:** none
+---
 
+# 28.01.26 <br>
 
+**What I have done:** <br>
+Practiced problems and revised all concepts in OOPs<br>
+https://docs.google.com/document/d/1gxqFI41Otpn0EKuwF3eJtiG3C0fX6j6hBwk3EsLLaoM/edit?usp=sharing
 
+<br>
 
+**What I will do next:** <br>
+DSA in C#<br>
+<br>
+
+**Issues faced:** none
+
+--- 
+
+# 29.01.26 <br>
+
+**What I have done:** <br>
+Practiced problems and revised all concepts in OOPs, <br>
+
+Review 2 :
+https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/OOPs
+<br>
+
+**What I will do next:** <br>
+Learn about Composition, Aggregation, and other Relations.<br>
+<br>
+
+**Issues faced:** none
 
 
 
