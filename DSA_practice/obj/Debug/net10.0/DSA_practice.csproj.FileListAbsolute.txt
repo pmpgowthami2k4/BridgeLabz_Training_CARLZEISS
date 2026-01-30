@@ -1,0 +1,14 @@
+C:\Users\gowth\source\repos\DSA_practice\bin\Debug\net10.0\DSA_practice.exe
+C:\Users\gowth\source\repos\DSA_practice\bin\Debug\net10.0\DSA_practice.deps.json
+C:\Users\gowth\source\repos\DSA_practice\bin\Debug\net10.0\DSA_practice.runtimeconfig.json
+C:\Users\gowth\source\repos\DSA_practice\bin\Debug\net10.0\DSA_practice.dll
+C:\Users\gowth\source\repos\DSA_practice\bin\Debug\net10.0\DSA_practice.pdb
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.AssemblyInfoInputs.cache
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.AssemblyInfo.cs
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.csproj.CoreCompileInputs.cache
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.dll
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\refint\DSA_practice.dll
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.pdb
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\DSA_practice.genruntimeconfig.cache
+C:\Users\gowth\source\repos\DSA_practice\obj\Debug\net10.0\ref\DSA_practice.dll
