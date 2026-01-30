@@ -5,16 +5,14 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DSA.Arrays.TwoSum</StartupObject>
+    <StartupObject>SLL</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="LinkedLists\" />
     <Folder Include="Hashmaps\" />
     <Folder Include="Algorithms\" />
     <Folder Include="Queue\" />
     <Folder Include="Stacks\" />
-    <Folder Include="Strings\" />
   </ItemGroup>
 
 </Project>
