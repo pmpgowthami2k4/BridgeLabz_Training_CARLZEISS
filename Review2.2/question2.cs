@@ -1,4 +1,5 @@
-﻿//using System.Net.NetworkInformation;
+﻿
+//using System.Net.NetworkInformation;
 //using System.Reflection;
 
 ////6.The "Universal Remote" Interface
@@ -10,32 +11,31 @@
 ////● Output: Status logs of devices being activated. 
 ////● Hint: Define an abstract Device class with an @abstractmethod.
 
-//using System;
-//using System.Collections.Generic;
-//using System;
-//using System.Collections.Generic;
 
+//using System;
+using System.Collections.Generic;
 
 //abstract class Device
 //{
-//    public abstract void TurnOn();
+    //public abstract void TurnOn();
+
 //}
-
-
 
 //class Light : Device
 //{
-//    public override void TurnOn()
+//    public override void TurnOn(
+//)
 //    {
-//        Console.WriteLine("💡 Light turned ON");
+//        Console.WriteLine("Light turned ON");
 //    }
 //}
+
 
 //class AC : Device
 //{
 //    public override void TurnOn()
 //    {
-//        Console.WriteLine("❄️ AC turned ON");
+//        Console.WriteLine("AC turned ON");
 //    }
 //}
 
@@ -43,31 +43,29 @@
 //{
 //    public override void TurnOn()
 //    {
-//        Console.WriteLine("📺 TV turned ON");
+//        Console.WriteLine("TV turned ON");
 //    }
 //}
 
-//// ================= REMOTE CONTROL =================
 
 //class RemoteControl
 //{
-//    // Accepts ANY device
+
 //    public void ActivateDevices(List<Device> devices)
 //    {
 //        foreach (Device device in devices)
 //        {
-//            device.TurnOn(); // Runtime polymorphism
+//            device.TurnOn();
 //        }
 //    }
 //}
 
-//// ================= MAIN =================
 
 //class Program
 //{
 //    static void Main()
 //    {
-//        // Input: List of device objects
+
 //        List<Device> devices = new List<Device>
 //        {
 //            new Light(),
