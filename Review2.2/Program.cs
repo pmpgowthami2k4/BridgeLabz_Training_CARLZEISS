@@ -1,80 +1,62 @@
-﻿//using System.Net.NetworkInformation;
-//using System.Reflection;
-
-////6.The "Universal Remote" Interface
-////Scenario: Model a Smart Home system where different devices (Light, AC, TV) have different 
-////methods for turn_on(). Create a RemoteControl class that can trigger any device without 
-////knowing its type. 
-////● Concepts: Polymorphism and Abstract Base Classes (ABC). 
-////● Input: List of device objects. 
-////● Output: Status logs of devices being activated. 
-////● Hint: Define an abstract Device class with an @abstractmethod.
-
+﻿
+//8.The RPG Character Evolution 
+//Scenario: In a game, a Warrior can "Level Up" to a Paladin. A Paladin inherits all 
+//Warrior skills but adds a heal() ability. However, the attack() method must be 20% 
+//stronger than the base Warrior. 
+//● Concepts:aMethod Overriding and super(). 
+//● Hint: Call super().attack() * 1.2 in the child class.
 
 using System;
-using System.Collections.Generic;
 
-abstract class Device
+class Warrior
 {
-       public abstract void TurnOn();
+    protected int attackPower;
 
-}
-
-class Light: Device
-{
-    public override void TurnOn(
-)
+    public Warrior()
     {
-        Console.WriteLine("Light turned ON");
+        attackPower = 100;
+    }
+
+    public virtual int Attack()
+    {
+        Console.WriteLine($"Warrior attacks with power {attackPower}");
+        return attackPower;
     }
 }
 
 
-class AC : Device
+class Paladin : Warrior
 {
-    public override void TurnOn()
+    public Paladin() : base()
     {
-        Console.WriteLine("AC turned ON");
-   }
-}
+    }
 
-class TV : Device
-{
-    public override void TurnOn()
+ 
+    public override int Attack()
     {
-        Console.WriteLine("TV turned ON");
+        int enhancedAttack = (int)(base.Attack() * 1.2);
+        Console.WriteLine($"Paladin attacks with enhanced power {enhancedAttack}");
+        return enhancedAttack;
+    }
+
+    public void Heal()
+    {
+        Console.WriteLine("Paladin uses Heal ");
     }
 }
-
-
-class RemoteControl
-{
-    
-    public void ActivateDevices(List<Device> devices)
-    {
-        foreach (Device device in devices)
-        {
-            device.TurnOn(); 
-        }
-    }
-}
-
 
 class Program
 {
     static void Main()
     {
-      
-        List<Device> devices = new List<Device>
-        {
-            new Light(),
-            new AC(),
-            new TV()
-        };
+        Console.WriteLine("Warrior");
+        Warrior warrior = new Warrior();
+        warrior.Attack();
 
-        RemoteControl remote = new RemoteControl();
-
-        Console.WriteLine("Activating devices...\n");
-        remote.ActivateDevices(devices);
+        Console.WriteLine("\n Paladin (Evolved Warrior)");
+        Paladin paladin = new Paladin();
+        paladin.Attack();
+        paladin.Heal();
     }
 }
+
