@@ -5,13 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TwoSumSolution</StartupObject>
+    <StartupObject>RealTimeSensorProcessing.SensorDataProcessing</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Hashmaps\" />
-    <Folder Include="Algorithms\" />
-    <Folder Include="Queue\" />
-  </ItemGroup>
 
 </Project>
