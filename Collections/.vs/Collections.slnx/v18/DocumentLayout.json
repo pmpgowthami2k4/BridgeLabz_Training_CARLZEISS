@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\nongenerics\\sortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:nongenerics\\sortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\generics\\hashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:generics\\hashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\adv_csharp_practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:adv_csharp_practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\nongenerics\\sortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:nongenerics\\sortedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\generics\\genericqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:generics\\genericqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\generics\\genericstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:generics\\genericstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\generics\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:generics\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\generics\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:generics\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\nongenerics\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,12 +65,77 @@
               "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Adv_CSharp_practice.csproj",
               "RelativeToolTip": "Adv_CSharp_practice.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-12T12:08:54.532Z",
+              "WhenOpened": "2026-02-12T14:34:17.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "hashset.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\hashset.cs",
+              "RelativeDocumentMoniker": "Generics\\hashset.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\hashset.cs",
+              "RelativeToolTip": "Generics\\hashset.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwHAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T14:30:56.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "genericqueue.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\genericqueue.cs",
+              "RelativeDocumentMoniker": "Generics\\genericqueue.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\genericqueue.cs",
+              "RelativeToolTip": "Generics\\genericqueue.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T14:11:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "genericstack.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\genericstack.cs",
+              "RelativeDocumentMoniker": "Generics\\genericstack.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\genericstack.cs",
+              "RelativeToolTip": "Generics\\genericstack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T14:00:08.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dictionary.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\dictionary.cs",
+              "RelativeDocumentMoniker": "Generics\\dictionary.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\dictionary.cs",
+              "RelativeToolTip": "Generics\\dictionary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:41:17.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\List.cs",
+              "RelativeDocumentMoniker": "Generics\\List.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\List.cs",
+              "RelativeToolTip": "Generics\\List.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:02:11.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "sortedlist.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\NonGenerics\\sortedlist.cs",
               "RelativeDocumentMoniker": "NonGenerics\\sortedlist.cs",
@@ -63,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "queue.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\NonGenerics\\queue.cs",
               "RelativeDocumentMoniker": "NonGenerics\\queue.cs",
@@ -71,12 +156,11 @@
               "RelativeToolTip": "NonGenerics\\queue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T11:28:04.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T11:28:04.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "stack.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\NonGenerics\\stack.cs",
               "RelativeDocumentMoniker": "NonGenerics\\stack.cs",
@@ -84,12 +168,11 @@
               "RelativeToolTip": "NonGenerics\\stack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T11:12:22.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T11:12:22.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "hashtable.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\NonGenerics\\hashtable.cs",
               "RelativeDocumentMoniker": "NonGenerics\\hashtable.cs",
@@ -97,12 +180,11 @@
               "RelativeToolTip": "NonGenerics\\hashtable.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAiwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T10:19:18.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T10:19:18.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Generics.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\Generics\\Generics.cs",
               "RelativeDocumentMoniker": "Generics\\Generics.cs",
@@ -110,8 +192,7 @@
               "RelativeToolTip": "Generics\\Generics.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T09:39:33.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T09:39:33.318Z"
             }
           ]
         }
