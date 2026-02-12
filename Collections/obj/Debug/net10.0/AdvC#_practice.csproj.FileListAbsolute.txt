@@ -1,0 +1,4 @@
+C:\Users\gowth\Downloads\PROJECTS\Collections\obj\Debug\net10.0\AdvC#_practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\Collections\obj\Debug\net10.0\AdvC#_practice.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\Collections\obj\Debug\net10.0\AdvC#_practice.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\Collections\obj\Debug\net10.0\AdvC#_practice.csproj.CoreCompileInputs.cache

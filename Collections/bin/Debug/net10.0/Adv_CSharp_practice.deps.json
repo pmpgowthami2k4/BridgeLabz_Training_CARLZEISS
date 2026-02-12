@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Adv_CSharp_practice/1.0.0": {
+        "runtime": {
+          "Adv_CSharp_practice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Adv_CSharp_practice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
