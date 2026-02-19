@@ -1,0 +1,15 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\bin\Debug\net10.0\IOstreams.exe
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\bin\Debug\net10.0\IOstreams.deps.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\bin\Debug\net10.0\IOstreams.runtimeconfig.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\bin\Debug\net10.0\IOstreams.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\bin\Debug\net10.0\IOstreams.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.sourcelink.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\refint\IOstreams.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\IOstreams.genruntimeconfig.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\IOstreams\obj\Debug\net10.0\ref\IOstreams.dll
