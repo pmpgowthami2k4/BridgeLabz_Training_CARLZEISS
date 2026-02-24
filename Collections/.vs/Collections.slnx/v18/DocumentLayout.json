@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\rev4\\review4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|solutionrelative:rev4\\review4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\REV4\\review4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REV4\\review4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E858DB4-21EA-19CA-CC23-A637C2FBD8DE}|Adv_CSharp_practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\collections\\adv_csharp_practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -70,12 +70,10 @@
               "Title": "review4.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\REV4\\review4.cs",
               "RelativeDocumentMoniker": "REV4\\review4.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\REV4\\review4.cs*",
-              "RelativeToolTip": "REV4\\review4.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFcAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Collections\\REV4\\review4.cs",
+              "RelativeToolTip": "REV4\\review4.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T06:42:49.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T06:42:49.655Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LINQ_Practice</id>
+    <version>1.0.0</version>
+    <authors>LINQ_Practice</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="41036cac5ed38334a5bf324ee65b325d72769842" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\LINQ_Practice\bin\Debug\net10.0\LINQ_Practice.runtimeconfig.json" target="lib\net10.0\LINQ_Practice.runtimeconfig.json" />
+    <file src="C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\LINQ_Practice\bin\Debug\net10.0\LINQ_Practice.dll" target="lib\net10.0\LINQ_Practice.dll" />
+  </files>
+</package>
