@@ -1,11 +1,3 @@
-Understood.
-No emojis. Only clean headings and bullet points.
-Below is the fully formatted README content from **19 January 2026 to 24 February 2026** in a consistent professional format.
-
-You can paste this directly into your README.
-
----
-
 # BridgeLabz Training – Carl Zeiss
 
 This repository documents my daily learning progress during the BridgeLabz Training Program for Carl Zeiss.
