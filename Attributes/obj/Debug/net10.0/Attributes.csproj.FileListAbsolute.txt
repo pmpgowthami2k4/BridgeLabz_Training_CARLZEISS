@@ -1,0 +1,15 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\bin\Debug\net10.0\Attributes.exe
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\bin\Debug\net10.0\Attributes.deps.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\bin\Debug\net10.0\Attributes.runtimeconfig.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\bin\Debug\net10.0\Attributes.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\bin\Debug\net10.0\Attributes.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.sourcelink.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\refint\Attributes.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\Attributes.genruntimeconfig.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Attributes\obj\Debug\net10.0\ref\Attributes.dll

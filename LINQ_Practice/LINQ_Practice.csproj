@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>groupingquestion4</StartupObject>
+    <StartupObject>question2</StartupObject>
   </PropertyGroup>
 
 </Project>
