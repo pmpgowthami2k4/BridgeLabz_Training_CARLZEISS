@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\questiontest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:questiontest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\joins\\joinsquestion9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:joins\\joinsquestion9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\linq_practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:linq_practice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\questiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:questiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\grouping\\groupingquestion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:grouping\\groupingquestion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\grouping\\groupingquestion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:grouping\\groupingquestion1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\questiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|solutionrelative:questiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD989F31-22AC-4B01-507A-03697093AAFD}|LINQ_Practice.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\linq_practice\\joins\\joinsquestion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -61,21 +69,33 @@
               "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\LINQ_Practice.csproj",
               "RelativeToolTip": "LINQ_Practice.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-25T06:59:01.529Z",
+              "WhenOpened": "2026-03-02T11:14:52.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "questiontest2.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\questiontest2.cs",
-              "RelativeDocumentMoniker": "questiontest2.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\questiontest2.cs",
-              "RelativeToolTip": "questiontest2.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwEgAAABvAAAAAAAAAA==",
+              "Title": "joinsquestion9.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Joins\\joinsquestion9.cs",
+              "RelativeDocumentMoniker": "Joins\\joinsquestion9.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Joins\\joinsquestion9.cs",
+              "RelativeToolTip": "Joins\\joinsquestion9.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T06:07:24.422Z",
+              "WhenOpened": "2026-03-02T11:10:58.246Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "groupingquestion2.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Grouping\\groupingquestion2.cs",
+              "RelativeDocumentMoniker": "Grouping\\groupingquestion2.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Grouping\\groupingquestion2.cs",
+              "RelativeToolTip": "Grouping\\groupingquestion2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T07:20:24.401Z"
             },
             {
               "$type": "Document",
@@ -85,14 +105,13 @@
               "RelativeDocumentMoniker": "Grouping\\groupingquestion1.cs",
               "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Grouping\\groupingquestion1.cs",
               "RelativeToolTip": "Grouping\\groupingquestion1.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T06:02:35.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T06:02:35.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "sorting1.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\sorting1.cs",
               "RelativeDocumentMoniker": "sorting1.cs",
@@ -100,25 +119,23 @@
               "RelativeToolTip": "sorting1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T05:53:37.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T05:53:37.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "questiontest.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\questiontest.cs",
               "RelativeDocumentMoniker": "questiontest.cs",
               "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\questiontest.cs",
               "RelativeToolTip": "questiontest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T05:40:50.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T05:40:50.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "joinsquestion2.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Joins\\joinsquestion2.cs",
               "RelativeDocumentMoniker": "Joins\\joinsquestion2.cs",
@@ -126,12 +143,11 @@
               "RelativeToolTip": "Joins\\joinsquestion2.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T08:44:29.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T08:44:29.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "joinsquestion1.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Joins\\joinsquestion1.cs",
               "RelativeDocumentMoniker": "Joins\\joinsquestion1.cs",
@@ -139,12 +155,11 @@
               "RelativeToolTip": "Joins\\joinsquestion1.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAmwDMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T08:03:09.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T08:03:09.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "question10.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\question10.cs",
               "RelativeDocumentMoniker": "question10.cs",
@@ -156,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "groupingquestion3.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\Grouping\\groupingquestion3.cs",
               "RelativeDocumentMoniker": "Grouping\\groupingquestion3.cs",
@@ -164,12 +179,11 @@
               "RelativeToolTip": "Grouping\\groupingquestion3.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T06:52:02.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T06:52:02.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "grouping1.cs",
               "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\LINQ_Practice\\grouping1.cs",
               "RelativeDocumentMoniker": "grouping1.cs",
