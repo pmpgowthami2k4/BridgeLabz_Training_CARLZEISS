@@ -1,0 +1,5 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\RE6,7\obj\Debug\net10.0\REV6,7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\RE6,7\obj\Debug\net10.0\REV6,7.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\RE6,7\obj\Debug\net10.0\REV6,7.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\RE6,7\obj\Debug\net10.0\REV6,7.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\RE6,7\obj\Debug\net10.0\REV6,7.sourcelink.json

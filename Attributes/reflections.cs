@@ -38,12 +38,13 @@ class reflectionsProgram
     static void Main()
     {
         Type type = typeof(Employee1);
-
         Console.WriteLine("CLASS INFO");
         foreach (InfoAttribute attr in type.GetCustomAttributes(false))
         {
             Console.WriteLine("Class Attribute: " + attr.Message);
         }
+
+
 
         Console.WriteLine("\nFIELDS");
         FieldInfo[] fields = type.GetFields();
@@ -57,6 +58,8 @@ class reflectionsProgram
             }
         }
 
+
+
         Console.WriteLine("\nPROPERTIES");
         PropertyInfo[] properties = type.GetProperties();
         foreach (PropertyInfo prop in properties)
@@ -68,6 +71,8 @@ class reflectionsProgram
                 Console.WriteLine("  Attribute: " + attr.Message);
             }
         }
+
+
 
         Console.WriteLine("\nMETHOD");
         MethodInfo[] methods = type.GetMethods(
@@ -81,6 +86,8 @@ class reflectionsProgram
             {
                 Console.WriteLine("  Attribute: " + attr.Message);
             }
+
+
 
             Console.WriteLine("  Parameters:");
 

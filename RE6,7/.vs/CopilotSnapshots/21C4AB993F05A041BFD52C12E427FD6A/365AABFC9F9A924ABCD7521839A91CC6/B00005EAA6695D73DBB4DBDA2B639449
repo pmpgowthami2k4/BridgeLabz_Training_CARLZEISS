@@ -1,0 +1,276 @@
+﻿//📚 *Library Management System – Assignment*
+
+//*Section 1: Basic OOP Concepts *
+//1️⃣ Create a class **Book * *with the following properties:
+
+//• `BookId` (int) – Unique identifier
+//• `Title` (string) – Book title
+//• `Author` (string) – Author name
+//• `Category` (string) – Book category
+//• `IsAvailable` (bool) – Availability status
+//---
+//*Section 2: Interface Implementation*
+
+//2️⃣ Create an interface **ILibraryService * *with the following methods:
+
+//AddBook(Book book)
+//RemoveBook(int bookId)
+//IssueBook(int bookId)
+//ReturnBook(int bookId)
+//DisplayBooks()
+
+//-- -
+
+//*Section 3: Business Logic*
+
+//3️⃣ Implement **AddBook()** using attributes
+
+//Requirements:
+//• BookId must be unique
+//• New books should be **available by default** 
+
+
+//4️⃣ Implement **RemoveBook()** using attributes
+
+//Conditions:
+//• Book should exist
+//• Issued books **cannot be removed**
+
+//5️⃣ Implement **IssueBook()** 
+
+//Rules:
+//• Book must exist
+//• Book must be **available**
+//• If already issued, show message:
+//"Book already issued"
+
+//6️⃣ Implement** ReturnBook()**
+
+//Rules:
+//• Book must exist
+//• Book must currently be issued
+
+//---
+
+//*Section 4: LINQ Operations*
+
+//Use **LINQ** for the following:
+
+//7️⃣ Display all books * *sorted by Title**
+
+//8️⃣ Display **only available books**
+
+//9️⃣ Display books by **Category**
+
+//🔟 Count how many books are currently **issued**
+
+//---
+
+//*Section 5: Custom Attribute*
+
+//1️⃣1️⃣ Create a **custom attribute `BookCategoryAttribute`**
+
+//Allowed categories:
+
+//• Fiction
+//• Science
+//• Technology
+//• History
+//• Biography
+
+//Apply this attribute to the **Category property**.
+
+//---
+
+//*Section 6: Exception Handling*
+
+//1️⃣2️⃣ Create custom exceptions:
+
+//• BookNotFoundException
+//• BookAlreadyIssuedException
+//• InvalidCategoryException
+
+//Throw exceptions when:
+
+//• Book ID does not exist
+//• Book is already issued
+//• Invalid category is provided
+
+//---
+
+//*Section 7: Design Pattern*
+
+//1️⃣3️⃣ Implement **Singleton Design Pattern** for `LibraryServiceImpl`.
+
+//Requirement:
+//Only** one instance of the library service** should exist.
+
+//---
+
+//*Section 8: Advanced LINQ*
+
+//1️⃣4️⃣ Find the **Top 3 authors who have the most books in the library** using LINQ.
+//use regex attribute anywhere 
+
+//===================================================
+
+//1️⃣ Create a class **Book * *with the following properties:
+
+//• `BookId` (int) – Unique identifier
+//• `Title` (string) – Book title
+//• `Author` (string) – Author name
+//• `Category` (string) – Book category
+//• `IsAvailable` (bool) – Availability status
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata;
+
+class Book
+{
+    public int BookId { get; set; }
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public string Category { get; set; }
+    public bool IsAvailable { get; set; } = true;
+
+    public Book(int bookId, string title, string author, string category)
+    {
+        BookId = bookId;
+        Title = title;
+        Author = author;
+        Category = category;
+    }
+}
+
+//=================================
+
+//2️⃣ Create an interface **ILibraryService * *with the following methods:
+
+//AddBook(Book book)
+//RemoveBook(int bookId)
+//IssueBook(int bookId)
+//ReturnBook(int bookId)
+//DisplayBooks()
+
+interface ILibraryService
+{
+    void AddBook(Book book);
+    void RemoveBook(int bookId);
+    void IssueBook(int bookId);
+    void ReturnBook(int bookId);
+    void DisplayBooks();
+}
+
+//================================
+//*Section 3: Business Logic*
+
+//3️⃣ Implement **AddBook()** using attributes
+
+//Requirements:
+//• BookId must be unique
+//• New books should be **available by default** 
+
+
+//4️⃣ Implement **RemoveBook()** using attributes
+
+//Conditions:
+//• Book should exist
+//• Issued books **cannot be removed**
+
+//5️⃣ Implement **IssueBook()** 
+
+//Rules:
+//• Book must exist
+//• Book must be **available**
+//• If already issued, show message:
+//"Book already issued"
+
+//6️⃣ Implement** ReturnBook()**
+
+//Rules:
+//• Book must exist
+//• Book must currently be issued
+
+//use dictionary to store books with bookId as key
+
+class LibraryServiceImpl : ILibraryService
+{
+    private static LibraryServiceImpl _instance;
+    private Dictionary<int, Book> _books;
+    private LibraryServiceImpl()
+    {
+        _books = new Dictionary<int, Book>();
+    }
+    public static LibraryServiceImpl Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = new LibraryServiceImpl();
+            }
+            return _instance;
+        }
+    }
+    public void AddBook(Book book)
+    {
+        if (_books.ContainsKey(book.BookId))
+        {
+            Console.WriteLine("Book ID must be unique.");
+            return;
+        }
+        _books.Add(book.BookId, book);
+        Console.WriteLine($"Book '{book.Title}' added successfully.");
+    }
+    public void RemoveBook(int bookId)
+    {
+        if (!_books.ContainsKey(bookId))
+        {
+            Console.WriteLine("Book not found.");
+            return;
+        }
+        if (!_books[bookId].IsAvailable)
+        {
+            Console.WriteLine("Issued books cannot be removed.");
+            return;
+        }
+        _books.Remove(bookId);
+        Console.WriteLine($"Book with ID {bookId} removed successfully.");
+    }
+    public void IssueBook(int bookId)
+    {
+        if (!_books.ContainsKey(bookId))
+        {
+            Console.WriteLine("Book not found.");
+            return;
+        }
+        if (!_books[bookId].IsAvailable)
+        {
+            Console.WriteLine("Book already issued.");
+            return;
+        }
+        _books[bookId].IsAvailable = false;
+        Console.WriteLine($"Book with ID {bookId} issued successfully.");
+    }
+    public void ReturnBook(int bookId)
+    {
+        if (!_books.ContainsKey(bookId))
+        {
+            Console.WriteLine("Book not found.");
+            return;
+        }
+        if (_books[bookId].IsAvailable)
+        {
+            Console.WriteLine("Book is not currently issued.");
+            return;
+        }
+        _books[bookId].IsAvailable = true;
+        Console.WriteLine($"Book with ID {bookId} returned successfully.");
+    }
+    public void DisplayBooks()
+    {
+        var sortedBooks = _books.Values.OrderBy(b => b.Title).ToList();
+        foreach (var book in sortedBooks)
+        {
+            Console.WriteLine($"ID: {book.BookId}, Title: {book.Title}, Author: {book.Author}, Category: {book.Category}, Available:

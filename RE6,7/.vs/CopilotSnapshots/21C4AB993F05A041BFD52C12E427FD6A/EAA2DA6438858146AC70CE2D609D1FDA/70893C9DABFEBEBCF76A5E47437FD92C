@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Reflection;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+
+//reflection to BookCategoryAttribute
+
+public class BookCategoryReflection
+{
+    public static void DisplayBookCategoryAttributeInfo()
+    {
+        Type attributeType = typeof(BookCategoryAttribute);
+
+        Console.WriteLine("=== BookCategoryAttribute Reflection Information ===\n");
+
+        // Display type information
+        Console.WriteLine($"Attribute Name: {attributeType.Name}");
+        Console.WriteLine($"Full Name: {attributeType.FullName}");
+        Console.WriteLine($"Base Type: {attributeType.BaseType?.Name}");
+        Console.WriteLine($"Is Class: {attributeType.IsClass}");
+        Console.WriteLine($"Is Abstract: {attributeType.IsAbstract}");
+        Console.WriteLine($"Is Sealed: {attributeType.IsSealed}");
+        Console.WriteLine();
+
+        // Display fields
+        Console.WriteLine("Fields:");
+        var fields = attributeType.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance);
+        foreach (var field in fields)
+        {
+            Console.WriteLine($"  - {field.Name} ({field.FieldType.Name}) - {(field.IsStatic ? "Static" : "Instance")}, {(field.IsPrivate ? "Private" : field.IsPublic ? "Public" : "Protected")}");
+        }
+        Console.WriteLine();
+
+        // Display methods
+        Console.WriteLine("Methods:");
+        var methods = attributeType.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+        foreach (var method in methods)
+        {
+            var parameters = string.Join(", ", method.GetParameters().Select(p => $"{p.ParameterType.Name} {p.Name}"));
+            Console.WriteLine($"  - {method.Name}({parameters}) : {method.ReturnType.Name}");
+        }
+        Console.WriteLine();
+
+        // Display properties
+        Console.WriteLine("Properties:");
+        var properties = attributeType.GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance);
+        foreach (var prop in properties)
+        {
+            Console.WriteLine($"  - {prop.Name} ({prop.PropertyType.Name}) - {(prop.CanRead ? "Get" : "")}{(prop.CanWrite ? " Set" : "")}");
+        }
+        Console.WriteLine();
+    }
+
+    public static void ValidateBookUsingReflection(Book book)
+    {
+        Type bookType = typeof(Book);
+        var categoryProperty = bookType.GetProperty("Category");
+
+        if (categoryProperty != null)
+        {
+            var attributes = categoryProperty.GetCustomAttributes(typeof(BookCategoryAttribute), false);
+
+            if (attributes.Length > 0)
+            {
+                Console.WriteLine($"\n=== Validating Book: {book.Title} ===");
+                var bookCategoryAttr = (BookCategoryAttribute)attributes[0];
+
+                // Create validation context
+                var validationContext = new ValidationContext(book) { MemberName = "Category" };
+                var categoryValue = categoryProperty.GetValue(book);
+
+                var validationResult = bookCategoryAttr.GetValidationResult(categoryValue, validationContext);
+
+                if (validationResult == ValidationResult.Success)
+                {
+                    Console.WriteLine($"✓ Category '{categoryValue}' is valid.");
+                }
+                else
+                {
+                    Console.WriteLine($"✗ Validation Failed: {validationResult.ErrorMessage}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No BookCategoryAttribute found on Category property.");
+            }
+        }
+    }
+
+    public static void DisplayAllowedCategories()
+    {
+        Type attributeType = typeof(BookCategoryAttribute);
+
+        // Get the private static AllowedCategories field
+        var allowedCategoriesField = attributeType.GetField("AllowedCategories", BindingFlags.NonPublic | BindingFlags.Static);
+
+        if (allowedCategoriesField != null)
+        {
+            var categories = (string[])allowedCategoriesField.GetValue(null);
+            Console.WriteLine("\n=== Allowed Book Categories (via Reflection) ===");
+            foreach (var category in categories)
+            {
+                Console.WriteLine($"  • {category}");
+            }
+        }
+    }
+}
+
+
+
+
+

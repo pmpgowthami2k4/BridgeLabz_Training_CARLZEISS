@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gowth\\Downloads\\PROJECTS\\Exceptions\\Exceptions.csproj": {}
+    "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Exceptions\\Exceptions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gowth\\Downloads\\PROJECTS\\Exceptions\\Exceptions.csproj": {
+    "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Exceptions\\Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gowth\\Downloads\\PROJECTS\\Exceptions\\Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Exceptions\\Exceptions.csproj",
         "projectName": "Exceptions",
-        "projectPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\Exceptions\\Exceptions.csproj",
+        "projectPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Exceptions\\Exceptions.csproj",
         "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
