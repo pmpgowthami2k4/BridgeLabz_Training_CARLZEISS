@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../Rev67Testing/Rev67Testing.csproj" />
+  <Project Path="REV6_7.csproj" />
+</Solution>
