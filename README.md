@@ -742,3 +742,471 @@ This repository documents my daily learning progress during the BridgeLabz Train
 
 * None
 
+
+
+---
+
+## 25.02.2026
+
+### What I Have Done
+
+* Solved LINQ Join problems
+* Studied Attributes:
+
+  * Built-in Attributes:
+
+    * Obsolete
+    * Serializable
+    * Conditional
+    * AttributeUsage
+    * DllImport
+    * CLSCompliant
+  * Assembly-level attributes
+  * Attributes at different levels
+* Custom Attributes:
+
+  * Need and creation
+* Reflection:
+
+  * What and why
+  * Main properties
+
+### What I Will Do Next
+
+* Continue with Attributes
+* Implement Attributes and Reflection concepts
+
+### Issues Faced
+
+* None
+
+---
+
+## 26.02.2026
+
+### What I Have Done
+
+* Attributes Implementation:
+
+  * Created custom attributes
+  * Used positional and named parameters
+  * Worked with AllowMultiple and Inherited properties
+  * Applied attributes at:
+
+    * Class level
+    * Method level
+    * Field level
+    * Property level
+    * Parameter level
+
+* Reflection:
+
+  * Retrieved attributes using:
+
+    * Type
+    * MethodInfo
+    * FieldInfo
+    * PropertyInfo
+    * ParameterInfo
+  * Practiced runtime metadata retrieval
+  * Used pattern matching (`is`)
+  * Worked with BindingFlags and DeclaredOnly
+
+* Link:
+  [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23)
+
+### What I Will Do Next
+
+* Practice reflection-based examples
+* Explore advanced reflection concepts
+* Work on real-time use cases
+
+### Issues Faced
+
+* None
+
+---
+
+## 27.02.2026
+
+### What I Have Done
+
+* Testing:
+
+  * Uses and types
+
+* MSTest Framework
+
+* Test Lifecycle
+
+* Introduction to TDD and implementation
+
+* Link:
+  [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/CalculatorTest](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/CalculatorTest)
+
+### What I Will Do Next
+
+* Write test cases with exception handling
+
+### Issues Faced
+
+* None
+
+---
+
+## 28.02.2026
+
+### What I Have Done
+
+* Studied MSTest documentation
+* Implemented custom exceptions
+
+### What I Will Do Next
+
+* Revise:
+
+  * LINQ
+  * Reflection
+  * Attributes
+  * MSTest
+
+### Issues Faced
+
+* None
+
+---
+
+## 02.03.2026
+
+### What I Have Done
+
+* Revised LINQ:
+
+  * Joining 3 tables
+  * Self join
+
+### What I Will Do Next
+
+* Revise Attributes and MSTest
+
+### Issues Faced
+
+* None
+
+---
+
+## 03.03.2026
+
+### What I Have Done
+
+* Revised:
+
+  * Attributes
+  * Reflection
+  * MSTest
+
+### What I Will Do Next
+
+* Study Design Principles
+
+### Issues Faced
+
+* None
+
+---
+
+## 04.03.2026
+
+### What I Have Done
+
+* Design Principles:
+
+  * YAGNI
+  * KISS
+  * DRY
+  * SOLID
+  * DIY
+* Creational Pattern:
+
+  * Singleton
+
+### What I Will Do Next
+
+* Continue Design Principles
+
+### Issues Faced
+
+* None
+
+---
+
+## 06.03.2026
+
+### What I Have Done
+
+* Creational Design Patterns:
+
+  * Singleton
+  * Factory Method
+  * Abstract Factory
+  * Builder
+  * Prototype
+
+### What I Will Do Next
+
+* Continue Design Principles
+
+### Issues Faced
+
+* None
+
+---
+
+## 07.03.2026
+
+### What I Have Done
+
+* Structural Patterns:
+
+  * Adapter
+  * Facade
+
+* Behavioral Patterns:
+
+  * Observer
+  * Command
+
+* Review with Chandrashekar Sir
+
+* Links:
+
+  * [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/REV6_7](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/REV6_7)
+  * [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/Rev67Testing](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/AdvC%23/Rev67Testing)
+
+### What I Will Do Next
+
+* Start Databases (DBMS)
+
+### Issues Faced
+
+* None
+
+---
+
+## 10.03.2026
+
+### What I Have Done
+
+* Database Programming Basics
+* Fundamental SQL:
+
+  * DDL
+  * DML
+  * TCL
+  * Operators
+  * Constraints
+  * System Functions
+
+### What I Will Do Next
+
+* Continue SQL Practice
+
+### Issues Faced
+
+* None
+
+---
+
+## 11.03.2026
+
+### What I Have Done
+
+* SQL Concepts:
+
+  * Set Operators
+  * Ranking Functions
+  * CTE
+  * Views
+  * Scalar Variables
+  * Table Variables
+  * Temporary Variables
+  * T-SQL
+
+### What I Will Do Next
+
+* Continue SQL Practice
+
+### Issues Faced
+
+* None
+
+---
+
+## 12.03.2026
+
+### What I Have Done
+
+* T-SQL
+* Triggers
+* Implemented all topics in a mini project
+
+### What I Will Do Next
+
+* Continue SQL Practice
+
+### Issues Faced
+
+* None
+
+---
+
+## 13.03.2026
+
+### What I Have Done
+
+* T-SQL and Triggers
+* Subqueries (types)
+* SQL Server Profiler
+* Extended Events (XEvents)
+* Trace Flags
+* Query Optimization
+
+### What I Will Do Next
+
+* Cover:
+
+  * Locks
+  * Backup
+  * Exceptions
+  * Other theory topics
+
+### Issues Faced
+
+* None
+
+---
+
+## 14.03.2026
+
+### What I Have Done
+
+* Covered theory topics
+
+* Review 8
+
+* Link:
+  [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/DB](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/DB)
+
+### What I Will Do Next
+
+* MongoDB
+
+### Issues Faced
+
+* None
+
+---
+
+## 16.03.2026
+
+### What I Have Done
+
+* MongoDB:
+
+  * Setup
+  * Why MongoDB
+  * Database operations
+  * Collection operations
+  * Insert, Read, Projection
+  * Query Operators
+
+### What I Will Do Next
+
+* Continue MongoDB
+
+### Issues Faced
+
+* None
+
+---
+
+## 17.03.2026
+
+### What I Have Done
+
+* MongoDB:
+
+  * Update operations
+  * Delete operations
+  * Sorting
+  * Limit and Skip
+  * Aggregation Pipeline
+  * Aggregation Stages
+  * Indexes
+
+### What I Will Do Next
+
+* Continue MongoDB
+* Build mini project with all concepts
+
+### Issues Faced
+
+* None
+
+---
+
+## 18.03.2026
+
+### What I Have Done
+
+* Implemented mini project using MongoDB (all concepts)
+
+### What I Will Do Next
+
+* Multithreading
+
+### Issues Faced
+
+* None
+
+---
+
+## 19.03.2026
+
+### What I Have Done
+
+* Studied Multithreading fundamentals:
+
+  * Threads
+  * Process vs Thread
+  * Thread types
+  * Lifecycle
+  * Scheduling
+  * Thread creation in C#
+* ThreadPool:
+
+  * Concepts
+  * Architecture
+  * ASP.NET Core usage
+* Task Parallel Library (TPL):
+
+  * Tasks
+  * Task creation
+  * Task composition
+  * Continuations
+  * Exception handling
+
+### What I Will Do Next
+
+* Hands-on implementation using:
+
+  * Tasks
+  * async/await
+
+### Issues Faced
+
+* None
+
+
+
+
