@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\threads\\review9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|solutionrelative:review9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\threads\\deadlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|solutionrelative:deadlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\threads\\threads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDB3E4D-0EE6-03E3-9E8B-74BAB3E67DF0}|Threads.csproj|solutionrelative:threads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "review9.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\review9.cs",
+              "RelativeDocumentMoniker": "review9.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\review9.cs",
+              "RelativeToolTip": "review9.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:16:21.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "deadlock.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\deadlock.cs",
+              "RelativeDocumentMoniker": "deadlock.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\deadlock.cs",
+              "RelativeToolTip": "deadlock.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAHkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:13:00.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "threads.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\threads.cs",
+              "RelativeDocumentMoniker": "threads.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\Threads\\threads.cs",
+              "RelativeToolTip": "threads.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAqwKMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:10:44.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
