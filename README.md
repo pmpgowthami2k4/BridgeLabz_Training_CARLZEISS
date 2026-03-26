@@ -2,6 +2,9 @@
 
 This repository documents my daily learning progress during the BridgeLabz Training Program for Carl Zeiss.
 
+## Each branch includes practice modules organized according to specific topics. Please refer to the appropriate branch for details.
+
+
 ---
 
 ## 19.01.2026
