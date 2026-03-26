@@ -1208,5 +1208,180 @@ This repository documents my daily learning progress during the BridgeLabz Train
 * None
 
 
+---
 
+## 20.03.2026
+
+### What I Have Done
+
+* Started Task Parallel Library (TPL):
+
+  * Understood Task vs Thread and why Tasks are preferred
+* Task creation techniques:
+
+  * `Task.Run()`
+  * Task constructor
+  * Handling long-running tasks
+* Tasks with return values:
+
+  * `Task<T>`
+  * Difference between `Result` and `await`
+* Waiting for tasks:
+
+  * `Wait()`
+  * `Result`
+  * Issues like blocking
+* Task composition:
+
+  * `Task.WhenAll()`
+  * `Task.WhenAny()`
+
+### What I Will Do Next
+
+* Continue advanced TPL concepts
+* Move to async/await programming
+
+### Issues Faced
+
+* None
+
+---
+
+## 21.03.2026
+
+### What I Have Done
+
+* Completed TPL concepts:
+
+  * Task continuations using `ContinueWith()`
+  * Modern async/await alternatives
+* Exception handling in Tasks:
+
+  * `AggregateException`
+  * Handling multiple failures
+* Async Programming:
+
+  * Working of async/await
+  * CPU-bound vs I/O-bound tasks
+  * Best practices
+  * Deadlocks
+  * `ConfigureAwait(false)`
+* Thread Synchronization:
+
+  * Race conditions
+  * `lock`
+  * `Monitor`
+  * `Mutex`
+  * `Semaphore` & `SemaphoreSlim`
+  * Async synchronization
+  * `ReaderWriterLockSlim`
+* Concurrent Collections:
+
+  * Importance over normal collections
+* Parallel Programming:
+
+  * When to use / avoid
+* Cancellation Handling:
+
+  * `CancellationToken`
+  * `CancellationTokenSource`
+  * `CancelAfter`
+  * Linked tokens
+  * ASP.NET Core cancellation
+
+### What I Will Do Next
+
+* Practice async/await, synchronization, and parallel programming with real-world examples
+
+### Issues Faced
+
+* None
+
+---
+
+## 23.03.2026
+
+### What I Have Done
+
+* Deadlocks:
+
+  * Definition
+  * Lock-ordering deadlocks
+  * Async deadlocks
+  * Prevention techniques
+  * Detection strategies
+* Threading in ASP.NET Core:
+
+  * Threading model
+  * Request lifecycle
+  * Blocking vs non-blocking operations
+* Background Processing:
+
+  * `IHostedService`
+  * `BackgroundService`
+  * Channel-based worker patterns
+* Exception handling in multithreading:
+
+  * `AggregateException`
+  * Fire-and-forget risks
+  * Safe handling patterns
+
+### What I Will Do Next
+
+* Start Dapper
+
+### Issues Faced
+
+* None
+
+---
+
+## 24.03.2026
+
+### What I Have Done
+
+* Gave Review 9 to Kural Sir
+
+* Link:
+  [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/blob/MultiThreadingProgramming/Threads/review9.cs](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/blob/MultiThreadingProgramming/Threads/review9.cs)
+
+* Started ORM / Dapper:
+
+  * ORM concepts
+  * How Dapper works
+  * Trade-offs
+  * Glossary
+
+### What I Will Do Next
+
+* Complete Dapper and KEDA concepts
+* Implement Dapper-based solutions
+
+### Issues Faced
+
+* None
+
+---
+
+## 25.03.2026
+
+### What I Have Done
+
+* Dapper:
+
+  * Query methods
+  * Execute methods
+  * Parameters
+* KEDA:
+
+  * Working
+  * Integration with Dapper
+
+### What I Will Do Next
+
+* Web API
+
+### Issues Faced
+
+* None
 
