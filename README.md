@@ -1388,3 +1388,267 @@ This repository documents my daily learning progress during the BridgeLabz Train
 
 * None
 
+
+
+## 26.03.2026
+
+### What I Have Done
+
+* APIs:
+
+  * Introduction to APIs
+  * Types of APIs
+  * SOAP, REST, GraphQL
+* Middleware
+* Layered Architecture
+* Swagger
+
+### What I Will Do Next
+
+* Build a mini project using REST API
+
+### Issues Faced
+
+* None
+
+---
+
+## 27.03.2026
+
+### What I Have Done
+
+* Built a REST API to add and retrieve data from database
+
+### What I Will Do Next
+
+* Study internal working of code and keywords used
+
+### Issues Faced
+
+* None
+
+---
+
+## 28.03.2026
+
+### What I Have Done
+
+* Studied internal working of API code and keywords
+
+### What I Will Do Next
+
+* Continue API learning and practice
+
+### Issues Faced
+
+* None
+
+---
+
+## 30.03.2026
+
+### What I Have Done
+
+* Practiced problem given by Kural Sir
+* Implemented using Dapper:
+
+  * Triggers
+  * Functions
+  * Stored Procedures
+* Studied:
+
+  * Dependency Injection (DI)
+  * CORS
+  * Hashing
+  * HttpClient
+
+### What I Will Do Next
+
+* Build another CRUD API using MongoDB
+
+### Issues Faced
+
+* None
+
+---
+
+## 01.04.2026
+
+### What I Have Done
+
+* Implemented another CRUD API mini project
+
+### What I Will Do Next
+
+* Start Fundoo project
+
+### Issues Faced
+
+* None
+
+---
+
+## 02.04.2026
+
+### What I Have Done
+
+* Started Fundoo project
+* Created layered folder structure
+* Defined DTOs and Services
+
+### What I Will Do Next
+
+* Implement Controllers
+
+### Issues Faced
+
+* None
+
+---
+
+## 03.04.2026
+
+### What I Have Done
+
+* Worked on User Module:
+
+  * Implemented Register API
+  * Added validation
+  * Password hashing using BCrypt
+* Integrated database using Dapper
+* Verified data persistence in SQL Server
+
+### What I Will Do Next
+
+* Implement Login API
+* Generate JWT token for authentication
+
+### Issues Faced
+
+* Minor issues with password hashing and verification (resolved)
+
+---
+
+## 04.04.2026
+
+### What I Have Done
+
+* Implemented Login API with JWT authentication
+* Configured authentication middleware
+* Tested login flow and token generation
+* Started Notes Module:
+
+  * Create Note
+  * Get Notes
+
+### What I Will Do Next
+
+* Implement remaining Notes features:
+
+  * Trash
+  * Archive
+  * Pin
+
+### Issues Faced
+
+* Issue with Swagger JWT authorization UI (to revisit later)
+
+---
+
+## 06.04.2026
+
+### What I Have Done
+
+* Configured SMTP
+* Implemented Email Service
+* Sent welcome email after registration
+* Completed Notes Module:
+
+  * Create, Read, Update, Soft Delete
+* Implemented Trash:
+
+  * Move, Restore, Delete permanently
+* Implemented Archive:
+
+  * Archive, Unarchive, Retrieve
+* Implemented Pin/Unpin feature
+* Added Change Color functionality
+
+### What I Will Do Next
+
+* Implement Label and Collaborator modules
+
+### Issues Faced
+
+* None
+
+---
+
+## 07.04.2026
+
+### What I Have Done
+
+* Implemented:
+
+  * Label module
+  * Collaborator module
+* Installed and setup RabbitMQ
+
+### What I Will Do Next
+
+* Continue RabbitMQ and Redis
+
+### Issues Faced
+
+* None
+
+---
+
+## 08.04.2026
+
+### What I Have Done
+
+* Gave Review to Chandrashekar Sir
+
+* Link:
+  [https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/BackendDev/REVIEW10](https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/BackendDev/REVIEW10)
+
+### What I Will Do Next
+
+* Continue RabbitMQ and Redis
+
+### Issues Faced
+
+* None
+
+---
+
+## 09.04.2026
+
+### What I Have Done
+
+* Studied and implemented RabbitMQ in Fundoo project
+
+### What I Will Do Next
+
+* Continue with Redis
+
+### Issues Faced
+
+* None
+
+---
+
+## 10.04.2026
+
+### What I Have Done
+
+* Studied, installed, and implemented Redis in Fundoo
+
+### What I Will Do Next
+
+* Replace relational database with MongoDB in Fundoo
+
+### Issues Faced
+
+* None
