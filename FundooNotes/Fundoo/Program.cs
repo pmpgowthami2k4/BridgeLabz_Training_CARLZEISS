@@ -60,7 +60,7 @@ builder.Services.AddSingleton<IRabbitMQProducer, RabbitMQProducer>();
 builder.Services.AddHostedService<RabbitMQConsumer>();
 
 //register MONGO
-//builder.Services.AddSingleton<MongoContext>();
+builder.Services.AddSingleton<MongoContext>();
 
 
 
