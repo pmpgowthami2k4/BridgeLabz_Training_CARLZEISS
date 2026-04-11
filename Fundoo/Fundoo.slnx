@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../BusinessLayer/BusinessLayer.csproj" Id="4fe77b0c-0df3-4ec7-96bb-0e49dbc0b887" />
+  <Project Path="../DataBaseLayer/DataBaseLayer.csproj" Id="f79a2427-738f-45ca-b005-aa09e1b12c05" />
+  <Project Path="../ModelLayer/ModelLayer.csproj" Id="c87418ea-a90a-4147-9836-107e3bf773ee" />
+  <Project Path="../TestingLayer/TestingLayer.csproj" Id="bb7d97a6-c24e-4271-896b-4ec9928896db" />
+  <Project Path="Fundoo.csproj" />
+</Solution>
