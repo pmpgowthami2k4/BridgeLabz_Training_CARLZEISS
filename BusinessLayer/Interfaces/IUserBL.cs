@@ -7,5 +7,9 @@ namespace BusinessLayer.Interfaces
     {
         Task<string> Login(UserLoginDto dto);
         Task<User> Register(UserRegisterDto dto);
+
+        Task<bool> ForgotPassword(ForgotPasswordDto dto);
+        Task<bool> ResetPassword(ResetPasswordDto dto);
+      
     }
 }

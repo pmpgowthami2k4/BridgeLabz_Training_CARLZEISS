@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[10.1.7, )"
@@ -426,6 +430,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

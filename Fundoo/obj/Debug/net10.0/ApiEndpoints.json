@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Fundoo.Controllers.UserController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/user/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ModelLayer.DTOs.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fundoo.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/user/login",
     "HttpMethod": "POST",
@@ -42,6 +58,22 @@
       {
         "Name": "dto",
         "Type": "ModelLayer.DTOs.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fundoo.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/user/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ModelLayer.DTOs.ResetPasswordDto",
         "IsRequired": true
       }
     ],

@@ -81,3 +81,9 @@ C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundo
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\StackExchange.Redis.dll
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\System.IO.Hashing.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\DnsClient.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\MongoDB.Bson.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\MongoDB.Driver.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\SharpCompress.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\Snappier.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Fundoo\bin\Debug\net10.0\ZstdSharp.dll

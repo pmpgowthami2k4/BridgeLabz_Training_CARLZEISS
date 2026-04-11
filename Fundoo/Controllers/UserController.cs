@@ -42,5 +42,19 @@ namespace Fundoo.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordDto dto)
+        {
+            var result = await _userBL.ForgotPassword(dto);
+            return Ok(result);
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword(ResetPasswordDto dto)
+        {
+            var result = await _userBL.ResetPassword(dto);
+            return Ok(result);
+        }
     }
 }

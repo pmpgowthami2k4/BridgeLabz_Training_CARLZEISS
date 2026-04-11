@@ -10,7 +10,7 @@ using DataBaseLayer.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
-
+using DataBaseLayer.Context;
 using StackExchange.Redis;
 
 
@@ -53,10 +53,14 @@ builder.Services.AddTransient<ILabelDL, LabelDL>();
 builder.Services.AddTransient<ICollaboratorDL, CollaboratorDL>();
 builder.Services.AddScoped<INotesLabelDL, NotesLabelDL>();
 builder.Services.AddScoped<IReminderDL, ReminderDL>();
+builder.Services.AddTransient<IUserDL, UserDL>();
 
 //register RABBITMQ 
 builder.Services.AddSingleton<IRabbitMQProducer, RabbitMQProducer>();
 builder.Services.AddHostedService<RabbitMQConsumer>();
+
+//register MONGO
+//builder.Services.AddSingleton<MongoContext>();
 
 
 
