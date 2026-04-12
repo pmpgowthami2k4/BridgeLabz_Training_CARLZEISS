@@ -4,9 +4,9 @@ namespace BusinessLayer.Interfaces
 {
     public interface ICollaboratorBL
     {
-        Task<bool> AddCollaborator(int noteId, int userId, string email);
-        Task<IEnumerable<Collaborator>> GetCollaborators(int noteId);
-        Task<bool> RemoveCollaborator(int noteId, string email);
+        Task<bool> AddCollaborator(string noteId, string userId, string email);
+        Task<List<string>> GetCollaborators(string noteId);
+        Task<bool> RemoveCollaborator(string noteId, string userId, string email);
         Task<IEnumerable<Note>> GetSharedNotes(string email);
     }
 }

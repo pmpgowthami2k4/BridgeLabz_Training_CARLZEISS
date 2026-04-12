@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BusinessLayer.Interfaces;
+using System.Security.Claims;
 
 [Route("[controller]")]
 [ApiController]
@@ -7,42 +8,47 @@ public class CollaboratorController : ControllerBase
 {
     private readonly ICollaboratorBL _collabBL;
 
-    public CollaboratorController(ICollaboratorBL collabBL)
+public CollaboratorController(ICollaboratorBL collabBL)
     {
         _collabBL = collabBL;
     }
 
-    // ADD
+    // ✅ ADD COLLABORATOR
     [HttpPost("{noteId}")]
-    public async Task<IActionResult> Add(int noteId, [FromQuery] string email)
+    public async Task<IActionResult> Add(string noteId, [FromQuery] string email)
     {
-        int userId = 1; // temp
+        var userId = User.FindFirst("UserId")?.Value ?? "1"; // temp fallback
 
         var result = await _collabBL.AddCollaborator(noteId, userId, email);
         return Ok(result);
     }
 
-    // GET ALL
+    // ✅ GET ALL COLLABORATORS OF A NOTE
     [HttpGet("{noteId}")]
-    public async Task<IActionResult> Get(int noteId)
+    public async Task<IActionResult> Get(string noteId)
     {
         var result = await _collabBL.GetCollaborators(noteId);
         return Ok(result);
     }
 
-    // REMOVE
+    // ✅ REMOVE COLLABORATOR
     [HttpDelete("{noteId}")]
-    public async Task<IActionResult> Remove(int noteId, [FromQuery] string email)
+    public async Task<IActionResult> Remove(string noteId, [FromQuery] string email)
     {
-        var result = await _collabBL.RemoveCollaborator(noteId, email);
+        var userId = User.FindFirst("UserId")?.Value ?? "1";
+
+        var result = await _collabBL.RemoveCollaborator(noteId, userId, email);
         return Ok(result);
     }
 
-    // SHARED NOTES
+    // ✅ GET SHARED NOTES
     [HttpGet("shared")]
-    public async Task<IActionResult> Shared([FromQuery] string email)
+    public async Task<IActionResult> Shared()
     {
+        var email = User.FindFirst(ClaimTypes.Email)?.Value ?? "";
+
         var result = await _collabBL.GetSharedNotes(email);
         return Ok(result);
     }
+
 }

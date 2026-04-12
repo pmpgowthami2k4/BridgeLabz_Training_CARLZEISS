@@ -89,7 +89,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -110,7 +110,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -126,7 +126,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -144,13 +144,7 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -182,14 +176,14 @@
   {
     "ContainingType": "FundooDapper.Controllers.LabelsController",
     "Method": "Update",
-    "RelativePath": "Labels/{labelId}",
+    "RelativePath": "Labels/{labelName}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "labelId",
-        "Type": "System.Int32",
+        "Name": "labelName",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -203,14 +197,14 @@
   {
     "ContainingType": "FundooDapper.Controllers.LabelsController",
     "Method": "Delete",
-    "RelativePath": "Labels/{labelId}",
+    "RelativePath": "Labels/{labelName}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "labelId",
-        "Type": "System.Int32",
+        "Name": "labelName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -219,19 +213,19 @@
   {
     "ContainingType": "FundooDapper.Controllers.LabelsController",
     "Method": "AddLabel",
-    "RelativePath": "Labels/{noteId}/label/{labelId}",
+    "RelativePath": "Labels/{noteId}/label/{labelName}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
-        "Name": "labelId",
-        "Type": "System.Int32",
+        "Name": "labelName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -240,19 +234,19 @@
   {
     "ContainingType": "FundooDapper.Controllers.LabelsController",
     "Method": "RemoveLabel",
-    "RelativePath": "Labels/{noteId}/label/{labelId}",
+    "RelativePath": "Labels/{noteId}/label/{labelName}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
-        "Name": "labelId",
-        "Type": "System.Int32",
+        "Name": "labelName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -261,14 +255,14 @@
   {
     "ContainingType": "FundooDapper.Controllers.LabelsController",
     "Method": "GetNotesByLabel",
-    "RelativePath": "Labels/label/{labelId}/notes",
+    "RelativePath": "Labels/label/{labelName}/notes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "labelId",
-        "Type": "System.Int32",
+        "Name": "labelName",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -358,7 +352,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -374,7 +368,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -390,7 +384,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -411,7 +405,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -427,7 +421,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -448,7 +442,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -464,7 +458,44 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooDapper.Controllers.NotesController",
+    "Method": "SetReminder",
+    "RelativePath": "Notes/{noteId}/reminder",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "reminder",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooDapper.Controllers.NotesController",
+    "Method": "RemoveReminder",
+    "RelativePath": "Notes/{noteId}/reminder",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -480,7 +511,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -496,7 +527,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -512,7 +543,7 @@
     "Parameters": [
       {
         "Name": "noteId",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -522,6 +553,16 @@
     "ContainingType": "FundooDapper.Controllers.NotesController",
     "Method": "GetArchived",
     "RelativePath": "Notes/archived",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooDapper.Controllers.NotesController",
+    "Method": "GetReminders",
+    "RelativePath": "Notes/reminders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

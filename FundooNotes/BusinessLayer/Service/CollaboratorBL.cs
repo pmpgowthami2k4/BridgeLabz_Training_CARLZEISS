@@ -2,32 +2,37 @@
 using DataBaseLayer.Interfaces;
 using ModelLayer.Entities;
 
-public class CollaboratorBL : ICollaboratorBL
+namespace BusinessLayer.Service
 {
-    private readonly ICollaboratorDL _collabDL;
-
-    public CollaboratorBL(ICollaboratorDL collabDL)
+    public class CollaboratorBL : ICollaboratorBL
     {
-        _collabDL = collabDL;
+        private readonly INoteDL _noteDL;
+
+        public CollaboratorBL(INoteDL noteDL)
+        {
+            _noteDL = noteDL;
+        }
+
+        public async Task<bool> AddCollaborator(string noteId, string userId, string email)
+        {
+            return await _noteDL.AddCollaborator(noteId, userId, email);
+        }
+
+        public async Task<List<string>> GetCollaborators(string noteId)
+        {
+            var note = await _noteDL.GetNoteById(noteId, null);
+            return note?.Collaborators ?? new List<string>();
+        }
+
+        public async Task<bool> RemoveCollaborator(string noteId, string userId, string email)
+        {
+            return await _noteDL.RemoveCollaborator(noteId, userId, email);
+        }
+
+        public async Task<IEnumerable<Note>> GetSharedNotes(string email)
+        {
+            return await _noteDL.GetSharedNotes(email);
+        }
     }
 
-    public async Task<bool> AddCollaborator(int noteId, int userId, string email)
-    {
-        return await _collabDL.AddCollaborator(noteId, userId, email);
-    }
-
-    public async Task<IEnumerable<Collaborator>> GetCollaborators(int noteId)
-    {
-        return await _collabDL.GetCollaborators(noteId);
-    }
-
-    public async Task<bool> RemoveCollaborator(int noteId, string email)
-    {
-        return await _collabDL.RemoveCollaborator(noteId, email);
-    }
-
-    public async Task<IEnumerable<Note>> GetSharedNotes(string email)
-    {
-        return await _collabDL.GetSharedNotes(email);
-    }
 }
