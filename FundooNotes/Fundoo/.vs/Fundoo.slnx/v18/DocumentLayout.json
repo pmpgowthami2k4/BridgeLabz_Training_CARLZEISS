@@ -60,8 +60,7 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T14:29:31.508Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -73,8 +72,7 @@
               "RelativeToolTip": "..\\BusinessLayer\\Interfaces\\ICollaboratorBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T12:28:03.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T12:28:03.385Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "RelativeToolTip": "Controllers\\CollaboratorController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T12:19:08.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T12:19:08.407Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "Controllers\\NotesController.cs",
               "ViewState": "AgIAAFgBAAAAAAAAAAAAwFkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:36:59.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:36:59.613Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "..\\BusinessLayer\\Service\\NoteBL.cs",
               "ViewState": "AgIAAFQBAAAAAAAAAAAswGUBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:33:04.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:33:04.615Z"
             },
             {
               "$type": "Document",
@@ -125,8 +120,7 @@
               "RelativeToolTip": "..\\BusinessLayer\\Interfaces\\INoteBL.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAA2wEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:31:06.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:31:06.26Z"
             },
             {
               "$type": "Document",
@@ -136,7 +130,7 @@
               "RelativeDocumentMoniker": "..\\BusinessLayer\\Service\\CollaboratorBL.cs",
               "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\FundooNotes\\BusinessLayer\\Service\\CollaboratorBL.cs",
               "RelativeToolTip": "..\\BusinessLayer\\Service\\CollaboratorBL.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwB8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T10:07:18.375Z",
               "EditorCaption": ""
@@ -151,8 +145,7 @@
               "RelativeToolTip": "..\\ModelLayer\\Entities\\Note.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAwwD0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:58:08.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:58:08.904Z"
             },
             {
               "$type": "Document",
@@ -164,8 +157,7 @@
               "RelativeToolTip": "..\\DataBaseLayer\\Interfaces\\INoteDL.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAmwEoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:58:39.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:58:39.177Z"
             },
             {
               "$type": "Document",
@@ -177,8 +169,7 @@
               "RelativeToolTip": "..\\DataBaseLayer\\Repositories\\NoteDL.cs",
               "ViewState": "AgIAAPEBAAAAAAAAAAAuwP8BAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T11:30:29.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T11:30:29.197Z"
             },
             {
               "$type": "Document",
@@ -190,8 +181,7 @@
               "RelativeToolTip": "Controllers\\LabelsController.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAnwHsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T10:07:36.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T10:07:36.274Z"
             }
           ]
         }
