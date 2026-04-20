@@ -1,0 +1,16 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\bin\Debug\net10.0\LabelService.Application.deps.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\bin\Debug\net10.0\LabelService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\bin\Debug\net10.0\LabelService.Application.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\bin\Debug\net10.0\LabelService.Domain.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\bin\Debug\net10.0\LabelService.Domain.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.csproj.AssemblyReference.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.sourcelink.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelSer.74211DBF.Up2Date
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\refint\LabelService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\LabelService.Application.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Application\obj\Debug\net10.0\ref\LabelService.Application.dll

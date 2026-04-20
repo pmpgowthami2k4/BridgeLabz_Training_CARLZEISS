@@ -1,0 +1,143 @@
+﻿//Endpoints 
+//Get all Employees (id , name salary , deptid, exp ) 
+//Get emp by id 
+//Post Emp details 
+//Put Emp Details 
+//Date change 
+//Delete 
+
+using Microsoft.AspNetCore.Mvc;
+using REVIEW11.Model;
+using System.Linq;
+
+namespace REVIEW11.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class EmployeeController : ControllerBase
+    {
+        // Get all Employees (id, name, salary, deptid, exp)
+        [HttpGet]
+        public IActionResult GetAllEmployees()
+        {
+            var result = EmployeeList.Employees.Select(e => new { 
+                e.Id, 
+                e.Name, 
+                e.Salary, 
+                e.DeptId, 
+                Exp = e.Experience 
+            });
+            return Ok(result);
+        }
+
+        // Get emp by id
+        [HttpGet("{id}")]
+        public IActionResult GetEmployeeById(int id)
+        {
+            var emp = EmployeeList.Employees.FirstOrDefault(e => e.Id == id);
+            if (emp == null) return NotFound();
+
+            return Ok(new { emp.Id, emp.Name, emp.Salary, emp.DeptId, Exp = emp.Experience });
+        }
+
+        // Post Emp details
+        [HttpPost]
+        public IActionResult PostEmployee([FromBody] Employee employee)
+        {
+            if (EmployeeList.Employees.Any(e => e.Id == employee.Id))
+            {
+                return BadRequest("Employee with this ID already exists.");
+            }
+            EmployeeList.Employees.Add(employee);
+            return Ok(employee);
+        }
+
+        // Put Emp Details
+        [HttpPut("{id}")]
+        public IActionResult PutEmployee(int id, [FromBody] Employee employeeUpdate)
+        {
+            var emp = EmployeeList.Employees.FirstOrDefault(e => e.Id == id);
+            if (emp == null) return NotFound();
+
+            emp.Name = employeeUpdate.Name;
+            emp.Salary = employeeUpdate.Salary;
+            emp.DeptId = employeeUpdate.DeptId;
+            emp.DateOfJoining = employeeUpdate.DateOfJoining;
+
+            return Ok(emp);
+        }
+
+        // Date change
+        [HttpPatch("{id}/date")]
+        public IActionResult UpdateJoinDate(int id, [FromBody] DateTime newDate)
+        {
+            var emp = EmployeeList.Employees.FirstOrDefault(e => e.Id == id);
+            if (emp == null) return NotFound();
+
+            emp.DateOfJoining = newDate;
+            return Ok(emp);
+        }
+
+        // Delete
+        [HttpDelete("{id}")]
+        public IActionResult DeleteEmployee(int id)
+        {
+            var emp = EmployeeList.Employees.FirstOrDefault(e => e.Id == id);
+            if (emp == null) return NotFound();
+
+            EmployeeList.Employees.Remove(emp);
+            return Ok(new { Message = "Employee deleted successfully." });
+        }
+
+        // Filtering
+        [HttpGet("filter")]
+        public IActionResult FilterEmployees([FromQuery] string name, [FromQuery] string deptName, [FromQuery] int? minSalary, [FromQuery] string experienceLvl)
+        {
+            var query = EmployeeList.Employees.AsQueryable();
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                query = query.Where(e => e.Name.Contains(name, System.StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (!string.IsNullOrEmpty(deptName))
+            {
+                var dept = EmployeeList.Departments.FirstOrDefault(d => d.DeptName.Equals(deptName, System.StringComparison.OrdinalIgnoreCase));
+                if (dept != null)
+                {
+                    query = query.Where(e => e.DeptId == dept.DeptId);
+                }
+                else
+                {
+                    return Ok(new object[] { });
+                }
+            }
+
+            if (minSalary.HasValue)
+            {
+                query = query.Where(e => e.Salary >= minSalary.Value);
+            }
+
+            if (!string.IsNullOrEmpty(experienceLvl))
+            {
+                // fresher: 0-1, intermediate: 2-5, expert: > 5
+                if (experienceLvl.Equals("fresher", System.StringComparison.OrdinalIgnoreCase))
+                {
+                    query = query.Where(e => e.Experience <= 1);
+                }
+                else if (experienceLvl.Equals("intermediate", System.StringComparison.OrdinalIgnoreCase))
+                {
+                    query = query.Where(e => e.Experience > 1 && e.Experience <= 5);
+                }
+                else if (experienceLvl.Equals("expert", System.StringComparison.OrdinalIgnoreCase))
+                {
+                    query = query.Where(e => e.Experience > 5);
+                }
+            }
+
+            var result = query.Select(e => new { e.Id, e.Name, e.Salary, e.DeptId, Exp = e.Experience }).ToList();
+            return Ok(result);
+        }
+    }
+}
+

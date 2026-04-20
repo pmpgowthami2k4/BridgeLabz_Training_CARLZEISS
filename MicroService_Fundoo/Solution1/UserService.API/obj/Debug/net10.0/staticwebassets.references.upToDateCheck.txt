@@ -1,0 +1,8 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Application\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Infrastructure\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Application\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Infrastructure\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Application\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Infrastructure\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Application\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.Infrastructure\obj\Debug\net10.0\staticwebassets.build.json

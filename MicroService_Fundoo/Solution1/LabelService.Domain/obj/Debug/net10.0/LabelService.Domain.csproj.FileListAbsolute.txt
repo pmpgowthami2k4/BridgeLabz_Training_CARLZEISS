@@ -1,0 +1,12 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\bin\Debug\net10.0\LabelService.Domain.deps.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\bin\Debug\net10.0\LabelService.Domain.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\bin\Debug\net10.0\LabelService.Domain.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.sourcelink.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\refint\LabelService.Domain.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\LabelService.Domain.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\LabelService.Domain\obj\Debug\net10.0\ref\LabelService.Domain.dll

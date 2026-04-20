@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "UserService.API\\UserService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NotesService.API\\NotesService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CollaboratorService.API\\CollaboratorService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "LabelService.API\\LabelService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OcelotGateway\\OcelotGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

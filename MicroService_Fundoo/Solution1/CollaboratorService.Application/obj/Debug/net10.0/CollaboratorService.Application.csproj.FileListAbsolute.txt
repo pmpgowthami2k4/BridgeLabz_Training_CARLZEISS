@@ -1,0 +1,16 @@
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\bin\Debug\net10.0\CollaboratorService.Application.deps.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\bin\Debug\net10.0\CollaboratorService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\bin\Debug\net10.0\CollaboratorService.Application.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\bin\Debug\net10.0\CollaboratorService.Domain.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\bin\Debug\net10.0\CollaboratorService.Domain.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.csproj.AssemblyReference.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.AssemblyInfoInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.AssemblyInfo.cs
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.csproj.CoreCompileInputs.cache
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.sourcelink.json
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\Collabor.B1867F62.Up2Date
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\refint\CollaboratorService.Application.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\CollaboratorService.Application.pdb
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\CollaboratorService.Application\obj\Debug\net10.0\ref\CollaboratorService.Application.dll

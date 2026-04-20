@@ -1,0 +1,37 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/ApiGateway/">
+    <Project Path="OcelotGateway/OcelotGateway.csproj" Id="371b6844-22d3-4d83-a4d4-16888a20c3f7" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/CollaboratorService/">
+    <Project Path="CollaboratorService.API/CollaboratorService.API.csproj" Id="c3ca2a75-0671-4259-8580-f2ddc09086ee" />
+    <Project Path="CollaboratorService.Application/CollaboratorService.Application.csproj" Id="fb76ca43-44d5-44ca-ad69-5adad7611c9e" />
+    <Project Path="CollaboratorService.Domain/CollaboratorService.Domain.csproj" Id="e0acb40e-9474-4232-a1b8-7caf8af18ebe" />
+    <Project Path="CollaboratorService.Infrastructure/CollaboratorService.Infrastructure.csproj" Id="08adcf95-8368-4719-be98-acbab83feb87" />
+  </Folder>
+  <Folder Name="/src/Services/LabelService/">
+    <Project Path="LabelService.API/LabelService.API.csproj" Id="3ee26792-3a36-47ca-9796-955691933145" />
+    <Project Path="LabelService.Application/LabelService.Application.csproj" Id="c633f84b-f371-4aed-adf5-f1aa952f9dad" />
+    <Project Path="LabelService.Domain/LabelService.Domain.csproj" Id="259afcad-f297-41ca-9297-812da1232ca6" />
+    <Project Path="LabelService.Infrastructure/LabelService.Infrastructure.csproj" Id="d452512c-1572-4154-800e-0189a1fa448f" />
+  </Folder>
+  <Folder Name="/src/Services/NotesService/">
+    <Project Path="NotesService.API/NotesService.API.csproj" Id="982775ec-14aa-431f-b002-75fea32cc9ef" />
+    <Project Path="NotesService.Application/NotesService.Application.csproj" Id="74f3611a-96c5-4682-ac20-dc99d819be7a" />
+    <Project Path="NotesService.Domain/NotesService.Domain.csproj" Id="564de347-99f4-4c7c-9cef-15b6ff73b5dd" />
+    <Project Path="NotesService.Infrastructure/NotesService.Infrastructure.csproj" Id="f06096d2-42da-418d-bba5-13c1e3081ac4" />
+  </Folder>
+  <Folder Name="/src/Services/Tests/">
+    <Project Path="FundooNotes.Tests/FundooNotes.Tests.csproj" Id="db92fa38-535b-42dd-a007-7a58031e28a5" />
+  </Folder>
+  <Folder Name="/src/Services/UserService/">
+    <Project Path="UserService.API/UserService.API.csproj" />
+    <Project Path="UserService.Application/UserService.Application.csproj" />
+    <Project Path="UserService.Domain/UserService.Domain.csproj" />
+    <Project Path="UserService.Infrastructure/UserService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/SharedLibrary/">
+    <Project Path="SharedLibrary/SharedLibrary.csproj" Id="91afda73-f8f3-4d23-af4b-9a59267a4e9c" />
+  </Folder>
+</Solution>

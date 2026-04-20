@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CollaboratorService.Application/1.0.0": {
+        "dependencies": {
+          "CollaboratorService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CollaboratorService.Application.dll": {}
+        }
+      },
+      "CollaboratorService.Domain/1.0.0": {
+        "runtime": {
+          "CollaboratorService.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CollaboratorService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CollaboratorService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
