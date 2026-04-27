@@ -1652,3 +1652,243 @@ This repository documents my daily learning progress during the BridgeLabz Train
 ### Issues Faced
 
 * None
+
+---
+
+## 11.04.2026
+
+### What I Have Done
+
+* Added authentication enhancements:
+
+  * Forgot Password API
+  * Reset Password API
+
+* Replaced SQL Server with MongoDB in Fundoo project
+
+### What I Will Do Next
+
+* Start Microservices architecture for Fundoo project
+
+### Issues Faced
+
+* None
+
+---
+
+## 13.04.2026
+
+### What I Have Done
+
+* Studied Microservices architecture fundamentals
+* Setup Docker environment
+* Setup Postman for API testing
+
+### What I Will Do Next
+
+* Start Fundoo Microservices implementation
+
+### Issues Faced
+
+* None
+
+---
+
+## 14.04.2026
+
+### What I Have Done
+
+* Started Fundoo Microservices project
+* Completed User Service layers:
+
+  * Application
+  * Domain
+
+### What I Will Do Next
+
+* Continue User Service implementation
+
+### Issues Faced
+
+* None
+
+---
+
+## 15.04.2026
+
+### What I Have Done
+
+* Continued Fundoo Microservices
+* Completed User Service layers:
+
+  * API
+  * Infrastructure
+
+### What I Will Do Next
+
+* Connect database and implement repository layer
+
+### Issues Faced
+
+* None
+
+---
+
+## 16.04.2026
+
+### What I Have Done
+
+* Completed User Service setup in Fundoo Microservices
+
+### What I Will Do Next
+
+* Start Notes Service
+
+### Issues Faced
+
+* None
+
+---
+
+## 17.04.2026
+
+### What I Have Done
+
+* Gave review to Kural Sir
+* Configured Ocelot API Gateway
+
+### What I Will Do Next
+
+* Continue Notes Service
+
+### Issues Faced
+
+* None
+
+---
+
+## 18.04.2026
+
+### What I Have Done
+
+* Completed Notes Service
+* Implemented Collaborator Service
+* Added Global Exception Handling
+* Performed testing for services
+
+### What I Will Do Next
+
+* Continue Ocelot Gateway
+* Migrate Users database to SQL Server
+
+### Issues Faced
+
+* None
+
+---
+
+## 20.04.2026
+
+### What I Have Done
+
+* Completed Ocelot Gateway setup
+* Studied Docker and containerization concepts
+
+### What I Will Do Next
+
+* Start Docker and Azure deployment
+
+### Issues Faced
+
+* None
+
+---
+
+## 21.04.2026
+
+### What I Have Done
+
+* Started Dockerization of Fundoo Microservices
+
+### What I Will Do Next
+
+* Continue Dockerization
+
+### Issues Faced
+
+* None
+
+---
+
+## 22.04.2026
+
+### What I Have Done
+
+* Completed Dockerization of:
+
+  * User Service
+  * Notes Service
+
+### What I Will Do Next
+
+* Start Azure deployment
+
+### Issues Faced
+
+* None
+
+---
+
+## 23.04.2026
+
+### What I Have Done
+
+* Migrated SQL Server data storage to Docker volumes
+
+### What I Will Do Next
+
+* Start Azure deployment
+
+### Issues Faced
+
+* None
+
+---
+
+## 24.04.2026
+
+### What I Have Done
+
+* Completed Dockerization for Fundoo Notes Microservices project
+
+### What I Will Do Next
+
+* Implement Dapr
+* Deploy project on Azure
+
+### Issues Faced
+
+* None
+
+* GitHub Link:
+  https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/MicroServices
+
+---
+
+## 25.04.2026
+
+### What I Have Done
+
+* Gave review to Chandrashekar Sir
+* Resolved issues in Ocelot Gateway
+
+### What I Will Do Next
+
+* Implement Dapr
+
+### Issues Faced
+
+* None
+
+* GitHub Link:
+  https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/MicroServices
