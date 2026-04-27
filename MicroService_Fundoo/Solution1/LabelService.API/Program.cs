@@ -19,14 +19,15 @@ builder.Services.AddScoped<NoteLabelManager>();
 var app = builder.Build();
 
 //middleware
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI();
 
-
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseGlobalExceptionMiddleware();
 app.MapControllers();
 

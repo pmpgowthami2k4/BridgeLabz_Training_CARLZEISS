@@ -84,3 +84,4 @@ C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Micro
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\OcelotGateway\obj\Debug\net10.0\OcelotGateway.pdb
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\OcelotGateway\obj\Debug\net10.0\OcelotGateway.genruntimeconfig.cache
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\OcelotGateway\obj\Debug\net10.0\ref\OcelotGateway.dll
+C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\OcelotGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

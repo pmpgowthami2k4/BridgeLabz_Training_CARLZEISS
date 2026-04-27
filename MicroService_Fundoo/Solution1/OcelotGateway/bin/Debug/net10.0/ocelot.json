@@ -1,12 +1,68 @@
-﻿{
+﻿//{
+//    "Routes": [
+//        {
+//            "DownstreamPathTemplate": "/api/User/{everything}",
+//            "DownstreamScheme": "https",
+//            "DownstreamHostAndPorts": [
+//                {
+//                    "Host": "localhost",
+//                    "Port": 7145
+//                }
+//            ],
+//            "UpstreamPathTemplate": "/gateway/user/{everything}",
+//            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+//        },
+//        {
+//            "DownstreamPathTemplate": "/api/Notes/{everything}",
+//            "DownstreamScheme": "https",
+//            "DownstreamHostAndPorts": [
+//                {
+//                    "Host": "localhost",
+//                    "Port": 7053
+//                }
+//            ],
+//            "UpstreamPathTemplate": "/gateway/notes/{everything}",
+//            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+//        },
+//        {
+//            "DownstreamPathTemplate": "/api/Label/{everything}",
+//            "DownstreamScheme": "https",
+//            "DownstreamHostAndPorts": [
+//                {
+//                    "Host": "localhost",
+//                    "Port": 7243
+//                }
+//            ],
+//            "UpstreamPathTemplate": "/gateway/label/{everything}",
+//            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+//        },
+//        {
+//            "DownstreamPathTemplate": "/api/Collaborator/{everything}",
+//            "DownstreamScheme": "https",
+//            "DownstreamHostAndPorts": [
+//                {
+//                    "Host": "localhost",
+//                    "Port": 7274
+//                }
+//            ],
+//            "UpstreamPathTemplate": "/gateway/collaborator/{everything}",
+//            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+//        }
+//    ],
+//    "GlobalConfiguration": {
+//        "BaseUrl": "https://localhost:7157"
+//    }
+//}
+
+{
     "Routes": [
         {
             "DownstreamPathTemplate": "/api/User/{everything}",
-            "DownstreamScheme": "https",
+            "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
-                    "Port": 7145
+                    "Host": "host.docker.internal",
+                    "Port": 5001
                 }
             ],
             "UpstreamPathTemplate": "/gateway/user/{everything}",
@@ -14,11 +70,11 @@
         },
         {
             "DownstreamPathTemplate": "/api/Notes/{everything}",
-            "DownstreamScheme": "https",
+            "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
-                    "Port": 7053
+                    "Host": "host.docker.internal",
+                    "Port": 5002
                 }
             ],
             "UpstreamPathTemplate": "/gateway/notes/{everything}",
@@ -26,30 +82,46 @@
         },
         {
             "DownstreamPathTemplate": "/api/Label/{everything}",
-            "DownstreamScheme": "https",
+            "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
-                    "Port": 7243
+                    "Host": "host.docker.internal",
+                    "Port": 5003
                 }
             ],
             "UpstreamPathTemplate": "/gateway/label/{everything}",
             "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
         },
+        //{
+        //    "DownstreamPathTemplate": "/api/Collaborator/{everything}",
+        //    "DownstreamScheme": "http",
+        //    "DownstreamHostAndPorts": [
+        //        {
+        //            "Host": "host.docker.internal",
+        //            "Port": 5004
+        //        }
+        //    ],
+        //    "UpstreamPathTemplate": "/gateway/collaborator/{everything}",
+        //    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+        //}
+
         {
             "DownstreamPathTemplate": "/api/Collaborator/{everything}",
-            "DownstreamScheme": "https",
+            "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
-                    "Port": 7274
+                    "Host": "host.docker.internal",
+                    "Port": 5004
                 }
             ],
             "UpstreamPathTemplate": "/gateway/collaborator/{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
         }
     ],
     "GlobalConfiguration": {
-        "BaseUrl": "https://localhost:7157"
+        "BaseUrl": "http://localhost:7000"
     }
 }

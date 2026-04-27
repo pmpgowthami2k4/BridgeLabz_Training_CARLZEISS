@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/ApiGateway/">
     <Project Path="OcelotGateway/OcelotGateway.csproj" Id="371b6844-22d3-4d83-a4d4-16888a20c3f7" />

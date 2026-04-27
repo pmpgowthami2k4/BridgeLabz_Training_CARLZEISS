@@ -28,14 +28,14 @@ builder.Services.AddSingleton<MongoDbContext>();
 
 // -------------------- Redis --------------------
 builder.Services.AddSingleton<IConnectionMultiplexer>(
-    ConnectionMultiplexer.Connect("localhost:6379")
+    ConnectionMultiplexer.Connect("host.docker.internal:6379")
 );
 
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
 
 // -------------------- Dependency Injection --------------------
 builder.Services.AddScoped<INoteRepository, NoteRepository>();
-
+                                
 // -------------------- JWT Authentication --------------------
 var key = builder.Configuration["Jwt:Key"];
 
@@ -63,19 +63,22 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// -------------------- Middleware --------------------
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseGlobalExceptionMiddleware();
 
-app.UseHttpsRedirection();
+// -------------------- Middleware --------------------
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI();
+
+//app.UseHttpsRedirection();
 
 // 🔥 ORDER MATTERS
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseGlobalExceptionMiddleware();
 app.MapControllers();
 
 // Redirect root → Swagger
