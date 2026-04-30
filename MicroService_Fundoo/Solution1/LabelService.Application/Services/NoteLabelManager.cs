@@ -1,7 +1,7 @@
 ﻿using LabelService.Application.DTOs;
 using LabelService.Application.Interfaces;
 using LabelService.Domain.Entities;
-using LabelService.Application.DTOs;
+
 
 namespace LabelService.Application.Services
 {

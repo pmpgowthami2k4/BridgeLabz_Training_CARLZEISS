@@ -13,12 +13,16 @@ namespace LabelService.API.Controllers
         private readonly LabelManager _service;
         private readonly NoteLabelManager _mapService;
 
+        private readonly HttpClient _httpClient;
+
         public LabelController(
-    LabelManager service,
-    NoteLabelManager mapService)
+            LabelManager service,
+            NoteLabelManager mapService,
+            HttpClient httpClient)
         {
             _service = service;
             _mapService = mapService;
+            _httpClient = httpClient;
         }
 
         [HttpPost("create")]
@@ -79,6 +83,18 @@ namespace LabelService.API.Controllers
         {
             await _mapService.DeleteAsync(id);
             return Ok("Mapping Removed");
+        }
+
+        [HttpGet("test-notes")]
+        public async Task<IActionResult> GetNotesFromNotesService()
+        {
+            var response = await _httpClient.GetAsync(
+                "http://localhost:3503/v1.0/invoke/notesservice/method/api/Notes"
+            );
+
+            var content = await response.Content.ReadAsStringAsync();
+
+            return Ok(content);
         }
     }
 }

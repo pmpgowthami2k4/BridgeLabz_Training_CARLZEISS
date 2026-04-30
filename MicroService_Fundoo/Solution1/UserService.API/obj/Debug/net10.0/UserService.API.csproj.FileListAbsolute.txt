@@ -154,7 +154,6 @@ C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\Micro
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\UserServ.7E4AE71C.Up2Date
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\UserService.API.dll
 C:\Users\gowth\Downloads\PROJECTS\BRIDGELABZ\BridgeLabz_Training_CARLZEISS\MicroService_Fundoo\Solution1\UserService.API\obj\Debug\net10.0\refint\UserService.API.dll

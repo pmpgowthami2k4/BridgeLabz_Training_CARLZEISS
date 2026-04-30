@@ -1,6 +1,7 @@
-version: '3.9'
+version: "3.9"
 
 services:
+  # ---------------- INFRA ----------------
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -34,6 +35,17 @@ services:
     volumes:
       - mongo_data:/data/db
 
+  # ---------------- DAPR PLACEMENT ----------------
+
+  # placement:
+  #   image: daprio/dapr
+  #   container_name: dapr-placement
+  #   command: ["./placement", "-port", "50006"]
+  #   ports:
+  #     - "50006:50006"
+
+  # ---------------- USER SERVICE ----------------
+
   userservice:
     build:
       context: .
@@ -44,6 +56,24 @@ services:
     depends_on:
       - mongodb
 
+  # userservice-dapr:
+  #   image: daprio/daprd:latest
+  #   container_name: userservice-dapr
+  #   network_mode: "service:userservice"
+  #   command:
+  #     [
+  #       "./daprd",
+  #       "-app-id", "userservice",
+  #       "-app-port", "8080",
+  #       "-dapr-http-port", "3501",
+  #       "-placement-host-address", "placement:50006"
+  #     ]
+  #   depends_on:
+  #     - userservice
+  #     - placement
+
+  # ---------------- NOTES SERVICE ----------------
+
   notesservice:
     build:
       context: .
@@ -51,8 +81,30 @@ services:
     container_name: notesservice
     ports:
       - "5002:8080"
+      - "3502:3502"
     depends_on:
       - redis
+
+  # notesservice-dapr:
+  #   image: daprio/daprd:latest
+  #   container_name: notesservice-dapr
+  #   network_mode: "service:notesservice"
+  #   command:
+  #     [
+  #       "./daprd",
+  #       "-app-id", "notesservice",
+  #       "-app-port", "8080",
+  #       "-dapr-http-port", "3502",
+  #       "-placement-host-address", "placement:50006",
+  #       "-resources-path", "/components"
+  #     ]
+  #   volumes:
+  #     - ./components:/components
+  #   depends_on:
+  #     - notesservice
+  #     - placement
+
+  # ---------------- LABEL SERVICE ----------------
 
   labelservice:
     build:
@@ -64,6 +116,8 @@ services:
     depends_on:
       - sqlserver
 
+  # ---------------- COLLABORATOR SERVICE ----------------
+
   collaboratorservice:
     build:
       context: .
@@ -71,9 +125,31 @@ services:
     container_name: collaboratorservice
     ports:
       - "5004:8080"
+      - "3504:3504"
     depends_on:
       - sqlserver
       - rabbitmq
+
+  # collaboratorservice-dapr:
+  #   image: daprio/daprd:latest
+  #   container_name: collaboratorservice-dapr
+  #   network_mode: "service:collaboratorservice"
+  #   command:
+  #     [
+  #       "./daprd",
+  #       "-app-id", "collaboratorservice",
+  #       "-app-port", "8080",
+  #       "-dapr-http-port", "3504",
+  #       "-placement-host-address", "placement:50006",
+  #       "-resources-path", "/components"
+  #     ]
+  #   volumes:
+  #     - ./components:/components
+  #   depends_on:
+  #     - collaboratorservice
+  #     - placement
+
+  # ---------------- GATEWAY ----------------
 
   gateway:
     build:
@@ -87,6 +163,8 @@ services:
       - notesservice
       - labelservice
       - collaboratorservice
+
+# ---------------- VOLUMES ----------------
 
 volumes:
   sql_data:

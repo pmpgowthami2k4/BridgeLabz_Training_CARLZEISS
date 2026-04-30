@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rpSs8xM8964=",
+  "dgSpecHash": "ihTb/mEWYGk=",
   "success": true,
   "projectFilePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\UserService.Application\\UserService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gowth\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
-    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.8.0\\dnsclient.1.8.0.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",

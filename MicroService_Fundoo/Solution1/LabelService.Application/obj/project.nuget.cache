@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "tNT2C/3aHyw=",
+  "dgSpecHash": "oFbYp01bfZM=",
   "success": true,
   "projectFilePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\LabelService.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\gowth\\.nuget\\packages\\system.text.json\\10.0.7\\system.text.json.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\LabelService.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\LabelService.Application.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

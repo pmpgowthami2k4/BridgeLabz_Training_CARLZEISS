@@ -6,45 +6,33 @@
 //using CollaboratorService.Infrastructure.Email;
 //using SharedLibrary.Extensions;
 
-
 //var builder = WebApplication.CreateBuilder(args);
 
 //// Add Services
 //builder.Services.AddControllers();
-
 //builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
-//// Database Configuration
+//// Database
 //builder.Services.AddSingleton<DbConnectionFactory>();
 
-//// Dependency Injection
+//// DI
 //builder.Services.AddScoped<ICollaboratorRepository, CollaboratorRepository>();
 //builder.Services.AddScoped<CollaboratorManager>();
 
-//// RabbitMQ + Email Services
+//// RabbitMQ + Email
 //builder.Services.AddSingleton<RabbitMqPublisher>();
 //builder.Services.AddScoped<EmailService>();
 
 //var app = builder.Build();
 
-//// Middleware
-////if (app.Environment.IsDevelopment())
-////{
-////    app.UseSwagger();
-////    app.UseSwaggerUI();
-////}
-
 //app.UseSwagger();
 //app.UseSwaggerUI();
 
-////app.UseHttpsRedirection();
-
-//app.UseAuthorization();
 //app.UseGlobalExceptionMiddleware();
+
 //app.MapControllers();
 
-//// Redirect root → Swagger
 //app.MapGet("/", () => Results.Redirect("/swagger"));
 
 //app.Run();
@@ -55,14 +43,18 @@ using CollaboratorService.Infrastructure.Data;
 using CollaboratorService.Infrastructure.Repositories;
 using CollaboratorService.Infrastructure.RabbitMQ;
 using CollaboratorService.Infrastructure.Email;
+using Dapr.Client;
 using SharedLibrary.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add Services
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddDapr(); // 🔥 FIX
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Dapr
+builder.Services.AddDaprClient();
 
 // Database
 builder.Services.AddSingleton<DbConnectionFactory>();
@@ -71,8 +63,7 @@ builder.Services.AddSingleton<DbConnectionFactory>();
 builder.Services.AddScoped<ICollaboratorRepository, CollaboratorRepository>();
 builder.Services.AddScoped<CollaboratorManager>();
 
-// RabbitMQ + Email
-builder.Services.AddSingleton<RabbitMqPublisher>();
+// Email
 builder.Services.AddScoped<EmailService>();
 
 var app = builder.Build();
@@ -80,8 +71,12 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.UseRouting();          // 🔥 ADD THIS
+app.UseCloudEvents();      // 🔥 FIX (CRITICAL)
+
 app.UseGlobalExceptionMiddleware();
 
+app.MapSubscribeHandler(); // 🔥 already correct
 app.MapControllers();
 
 app.MapGet("/", () => Results.Redirect("/swagger"));

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VgdTKg9U7Io=",
+  "dgSpecHash": "nwhD37LVexs=",
   "success": true,
   "projectFilePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\NotesService.Infrastructure\\NotesService.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
-    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.8.0\\dnsclient.1.8.0.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.7\\microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.7\\microsoft.extensions.logging.abstractions.10.0.7.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mongodb.bson\\3.7.1\\mongodb.bson.3.7.1.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mongodb.driver\\3.7.1\\mongodb.driver.3.7.1.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",

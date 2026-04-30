@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabelService.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8b22f502e2cba29b877f14056e8d502884eca1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6930a1013f77a4b3d0c5392bea071d8aa0b1071")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabelService.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabelService.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

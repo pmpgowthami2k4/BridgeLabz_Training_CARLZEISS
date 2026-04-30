@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SZ9pPv8rFSA=",
+  "dgSpecHash": "xlbTVXzyNYk=",
   "success": true,
   "projectFilePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\NotesService.Application\\NotesService.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\dnsclient\\1.8.0\\dnsclient.1.8.0.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mongodb.bson\\3.7.1\\mongodb.bson.3.7.1.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\mongodb.driver\\3.7.1\\mongodb.driver.3.7.1.nupkg.sha512",

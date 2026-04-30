@@ -53,65 +53,78 @@
 //        "BaseUrl": "https://localhost:7157"
 //    }
 //}
-
 {
     "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/User/register",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "userservice",
+                    "Port": 8080
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/user/register",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/User/login",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "userservice",
+                    "Port": 8080
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/user/login",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
         {
             "DownstreamPathTemplate": "/api/User/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "host.docker.internal",
-                    "Port": 5001
+                    "Host": "userservice",
+                    "Port": 8080
                 }
             ],
             "UpstreamPathTemplate": "/gateway/user/{everything}",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
         },
+
         {
             "DownstreamPathTemplate": "/api/Notes/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "host.docker.internal",
-                    "Port": 5002
+                    "Host": "notesservice",
+                    "Port": 8080
                 }
             ],
             "UpstreamPathTemplate": "/gateway/notes/{everything}",
             "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
         },
+
         {
             "DownstreamPathTemplate": "/api/Label/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "host.docker.internal",
-                    "Port": 5003
+                    "Host": "labelservice",
+                    "Port": 8080
                 }
             ],
             "UpstreamPathTemplate": "/gateway/label/{everything}",
             "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
         },
-        //{
-        //    "DownstreamPathTemplate": "/api/Collaborator/{everything}",
-        //    "DownstreamScheme": "http",
-        //    "DownstreamHostAndPorts": [
-        //        {
-        //            "Host": "host.docker.internal",
-        //            "Port": 5004
-        //        }
-        //    ],
-        //    "UpstreamPathTemplate": "/gateway/collaborator/{everything}",
-        //    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
-        //}
 
         {
             "DownstreamPathTemplate": "/api/Collaborator/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "host.docker.internal",
-                    "Port": 5004
+                    "Host": "collaboratorservice",
+                    "Port": 8080
                 }
             ],
             "UpstreamPathTemplate": "/gateway/collaborator/{everything}",
@@ -121,6 +134,7 @@
             }
         }
     ],
+
     "GlobalConfiguration": {
         "BaseUrl": "http://localhost:7000"
     }

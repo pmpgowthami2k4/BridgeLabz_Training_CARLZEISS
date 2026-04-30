@@ -10,7 +10,7 @@
         "dependencies": {
           "LabelService.Application": "1.0.0",
           "LabelService.Infrastructure": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "10.0.5",
+          "Microsoft.AspNetCore.OpenApi": "10.0.7",
           "SharedLibrary": "1.0.0"
         },
         "runtime": {
@@ -25,14 +25,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.5": {
+      "Microsoft.AspNetCore.OpenApi/10.0.7": {
         "dependencies": {
           "Microsoft.OpenApi": "2.4.1"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "10.0.5.0",
-            "fileVersion": "10.0.526.15411"
+            "assemblyVersion": "10.0.7.0",
+            "fileVersion": "10.0.726.21808"
           }
         }
       },
@@ -360,12 +360,12 @@
       "path": "dapper/2.1.72",
       "hashPath": "dapper.2.1.72.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.5": {
+    "Microsoft.AspNetCore.OpenApi/10.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vTcxIfOPyfFbYk1g8YcXJfkMnlEWVkSnnjxcZLy60zgwiHMRf2SnZR+9E4HlpwKxgE3yfKMOti8J6WfKuKsw6w==",
-      "path": "microsoft.aspnetcore.openapi/10.0.5",
-      "hashPath": "microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512"
+      "sha512": "sha512-vKiAcGXG0BwNVw3bOjjWRLnp9tR18dR7MiwpvC94h0yFS+zfnzGHzS/JmmgwUdRixrGxrlIMRAWrVc+2DfAGlg==",
+      "path": "microsoft.aspnetcore.openapi/10.0.7",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512"
     },
     "Microsoft.Bcl.Cryptography/9.0.13": {
       "type": "package",

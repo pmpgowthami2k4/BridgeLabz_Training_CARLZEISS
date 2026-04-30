@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using NotesService.Infrastructure.Data;
@@ -14,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 // -------------------- Controllers --------------------
 builder.Services.AddControllers();
 
+
 // -------------------- Swagger --------------------
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -28,7 +30,7 @@ builder.Services.AddSingleton<MongoDbContext>();
 
 // -------------------- Redis --------------------
 builder.Services.AddSingleton<IConnectionMultiplexer>(
-    ConnectionMultiplexer.Connect("host.docker.internal:6379")
+    ConnectionMultiplexer.Connect("localhost:6379,abortConnect=false")
 );
 
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
@@ -76,12 +78,12 @@ app.UseSwaggerUI();
 
 //app.UseHttpsRedirection();
 
-// 🔥 ORDER MATTERS
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-// Redirect root → Swagger
+// Redirect root to Swagger
 app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.Run();

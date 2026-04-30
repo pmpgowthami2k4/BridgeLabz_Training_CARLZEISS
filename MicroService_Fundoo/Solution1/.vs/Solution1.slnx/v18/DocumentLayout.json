@@ -3,44 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{982775EC-14AA-431F-B002-75FEA32CC9EF}|NotesService.API\\NotesService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\notesservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{982775EC-14AA-431F-B002-75FEA32CC9EF}|NotesService.API\\NotesService.API.csproj|solutionrelative:notesservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.application\\interfaces\\inotelabelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|solutionrelative:labelservice.application\\interfaces\\inotelabelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{371B6844-22D3-4D83-A4D4-16888A20C3F7}|OcelotGateway\\OcelotGateway.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371B6844-22D3-4D83-A4D4-16888A20C3F7}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.application\\interfaces\\ilabelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|solutionrelative:labelservice.application\\interfaces\\ilabelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.api\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|solutionrelative:collaboratorservice.api\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.application\\dtos\\notelabelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|solutionrelative:labelservice.application\\dtos\\notelabelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_user||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile_user||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.application\\dtos\\createlabeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|solutionrelative:labelservice.application\\dtos\\createlabeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.application\\dtos\\assignlabeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C633F84B-F371-4AED-ADF5-F1AA952F9DAD}|LabelService.Application\\LabelService.Application.csproj|solutionrelative:labelservice.application\\dtos\\assignlabeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE26792-3A36-47CA-9796-955691933145}|LabelService.API\\LabelService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE26792-3A36-47CA-9796-955691933145}|LabelService.API\\LabelService.API.csproj|solutionrelative:labelservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE26792-3A36-47CA-9796-955691933145}|LabelService.API\\LabelService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\labelservice.api\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE26792-3A36-47CA-9796-955691933145}|LabelService.API\\LabelService.API.csproj|solutionrelative:labelservice.api\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.infrastructure\\repositories\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|solutionrelative:collaboratorservice.infrastructure\\repositories\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.infrastructure\\rabbitmq\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|solutionrelative:collaboratorservice.infrastructure\\rabbitmq\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.infrastructure\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|solutionrelative:collaboratorservice.infrastructure\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.infrastructure\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08ADCF95-8368-4719-BE98-ACBAB83FEB87}|CollaboratorService.Infrastructure\\CollaboratorService.Infrastructure.csproj|solutionrelative:collaboratorservice.infrastructure\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0ACB40E-9474-4232-A1B8-7CAF8AF18EBE}|CollaboratorService.Domain\\CollaboratorService.Domain.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.domain\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0ACB40E-9474-4232-A1B8-7CAF8AF18EBE}|CollaboratorService.Domain\\CollaboratorService.Domain.csproj|solutionrelative:collaboratorservice.domain\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.application\\services\\collaboratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|solutionrelative:collaboratorservice.application\\services\\collaboratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.application\\interfaces\\icollaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|solutionrelative:collaboratorservice.application\\interfaces\\icollaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.application\\dtos\\addcollaboratordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB76CA43-44D5-44CA-AD69-5ADAD7611C9E}|CollaboratorService.Application\\CollaboratorService.Application.csproj|solutionrelative:collaboratorservice.application\\dtos\\addcollaboratordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|solutionrelative:collaboratorservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{371B6844-22D3-4D83-A4D4-16888A20C3F7}|OcelotGateway\\OcelotGateway.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{371B6844-22D3-4D83-A4D4-16888A20C3F7}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|solutionrelative:collaboratorservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E13BBA-FC1E-7394-4AB5-E46BD1A6170D}|UserService.API\\UserService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04E13BBA-FC1E-7394-4AB5-E46BD1A6170D}|UserService.API\\UserService.API.csproj|solutionrelative:userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_label||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile_label||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_notes||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile_notes||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_collaborator||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile_collaborator||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|c:\\users\\gowth\\downloads\\projects\\bridgelabz\\bridgelabz_training_carlzeiss\\microservice_fundoo\\solution1\\collaboratorservice.api\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3CA2A75-0671-4259-8580-F2DDC09086EE}|CollaboratorService.API\\CollaboratorService.API.csproj|solutionrelative:collaboratorservice.api\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,140 +82,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dockerfile_label",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_label",
-              "RelativeDocumentMoniker": "Dockerfile_label",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_label",
-              "RelativeToolTip": "Dockerfile_label",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-21T09:16:58.09Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dockerfile_collaborator",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_collaborator",
-              "RelativeDocumentMoniker": "Dockerfile_collaborator",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_collaborator",
-              "RelativeToolTip": "Dockerfile_collaborator",
-              "ViewState": "AgIAAAQAAAAAAAAAAABBwBAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-21T09:29:14.745Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile_user",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_user",
-              "RelativeDocumentMoniker": "Dockerfile_user",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_user",
-              "RelativeToolTip": "Dockerfile_user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-21T09:51:41.909Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dockerfile_notes",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_notes",
-              "RelativeDocumentMoniker": "Dockerfile_notes",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\Dockerfile_notes",
-              "RelativeToolTip": "Dockerfile_notes",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-21T09:52:01.334Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\NotesService.API\\Program.cs",
-              "RelativeDocumentMoniker": "NotesService.API\\Program.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\NotesService.API\\Program.cs",
-              "RelativeToolTip": "NotesService.API\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Title": "INoteLabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\Interfaces\\INoteLabelRepository.cs",
+              "RelativeDocumentMoniker": "LabelService.Application\\Interfaces\\INoteLabelRepository.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\Interfaces\\INoteLabelRepository.cs",
+              "RelativeToolTip": "LabelService.Application\\Interfaces\\INoteLabelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T07:14:05.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Program.cs",
-              "RelativeDocumentMoniker": "CollaboratorService.API\\Program.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Program.cs",
-              "RelativeToolTip": "CollaboratorService.API\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T06:50:17.501Z",
+              "WhenOpened": "2026-04-30T08:03:27.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\OcelotGateway\\Program.cs",
-              "RelativeDocumentMoniker": "OcelotGateway\\Program.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\OcelotGateway\\Program.cs",
-              "RelativeToolTip": "OcelotGateway\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwGgAAAAKAAAAAAAAAA==",
+              "Title": "ILabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\Interfaces\\ILabelRepository.cs",
+              "RelativeDocumentMoniker": "LabelService.Application\\Interfaces\\ILabelRepository.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\Interfaces\\ILabelRepository.cs",
+              "RelativeToolTip": "LabelService.Application\\Interfaces\\ILabelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T06:31:31.515Z",
+              "WhenOpened": "2026-04-30T08:03:25.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CollaboratorController.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Controllers\\CollaboratorController.cs",
-              "RelativeDocumentMoniker": "CollaboratorService.API\\Controllers\\CollaboratorController.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Controllers\\CollaboratorController.cs",
-              "RelativeToolTip": "CollaboratorService.API\\Controllers\\CollaboratorController.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKIAAAApAAAAAAAAAA==",
+              "Title": "NoteLabelResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\NoteLabelResponseDto.cs",
+              "RelativeDocumentMoniker": "LabelService.Application\\DTOs\\NoteLabelResponseDto.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\NoteLabelResponseDto.cs",
+              "RelativeToolTip": "LabelService.Application\\DTOs\\NoteLabelResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T06:57:45.669Z",
+              "WhenOpened": "2026-04-30T08:03:22.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateLabelDto.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\CreateLabelDto.cs",
+              "RelativeDocumentMoniker": "LabelService.Application\\DTOs\\CreateLabelDto.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\CreateLabelDto.cs",
+              "RelativeToolTip": "LabelService.Application\\DTOs\\CreateLabelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:03:21.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignLabelDto.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\AssignLabelDto.cs",
+              "RelativeDocumentMoniker": "LabelService.Application\\DTOs\\AssignLabelDto.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Application\\DTOs\\AssignLabelDto.cs",
+              "RelativeToolTip": "LabelService.Application\\DTOs\\AssignLabelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:03:20.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ocelot.json",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\OcelotGateway\\ocelot.json",
-              "RelativeDocumentMoniker": "OcelotGateway\\ocelot.json",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\OcelotGateway\\ocelot.json",
-              "RelativeToolTip": "OcelotGateway\\ocelot.json",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAswHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-25T06:55:45.96Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.API\\Program.cs",
+              "RelativeDocumentMoniker": "LabelService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.API\\Program.cs",
+              "RelativeToolTip": "LabelService.API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:03:13.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\UserService.API\\Program.cs",
-              "RelativeDocumentMoniker": "UserService.API\\Program.cs",
-              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\UserService.API\\Program.cs",
-              "RelativeToolTip": "UserService.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAsAAAAAAAAAA==",
+              "Title": "LabelController.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.API\\Controllers\\LabelController.cs",
+              "RelativeDocumentMoniker": "LabelService.API\\Controllers\\LabelController.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.API\\Controllers\\LabelController.cs",
+              "RelativeToolTip": "LabelService.API\\Controllers\\LabelController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T06:21:10.492Z",
+              "WhenOpened": "2026-04-30T08:03:08.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollaboratorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Repositories\\CollaboratorRepository.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Infrastructure\\Repositories\\CollaboratorRepository.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Repositories\\CollaboratorRepository.cs",
+              "RelativeToolTip": "CollaboratorService.Infrastructure\\Repositories\\CollaboratorRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:52.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\RabbitMQ\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Infrastructure\\RabbitMQ\\RabbitMqPublisher.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\RabbitMQ\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "CollaboratorService.Infrastructure\\RabbitMQ\\RabbitMqPublisher.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:49.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Email\\EmailService.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Infrastructure\\Email\\EmailService.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Email\\EmailService.cs",
+              "RelativeToolTip": "CollaboratorService.Infrastructure\\Email\\EmailService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:24.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "RelativeToolTip": "CollaboratorService.Infrastructure\\Data\\DbConnectionFactory.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:21.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Collaborator.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Domain\\Entities\\Collaborator.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Domain\\Entities\\Collaborator.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Domain\\Entities\\Collaborator.cs",
+              "RelativeToolTip": "CollaboratorService.Domain\\Entities\\Collaborator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:15.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CollaboratorManager.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\Services\\CollaboratorManager.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Application\\Services\\CollaboratorManager.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\Services\\CollaboratorManager.cs",
+              "RelativeToolTip": "CollaboratorService.Application\\Services\\CollaboratorManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICollaboratorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\Interfaces\\ICollaboratorRepository.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Application\\Interfaces\\ICollaboratorRepository.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\Interfaces\\ICollaboratorRepository.cs",
+              "RelativeToolTip": "CollaboratorService.Application\\Interfaces\\ICollaboratorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:07.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddCollaboratorDto.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\DTOs\\AddCollaboratorDto.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.Application\\DTOs\\AddCollaboratorDto.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.Application\\DTOs\\AddCollaboratorDto.cs",
+              "RelativeToolTip": "CollaboratorService.Application\\DTOs\\AddCollaboratorDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:02:05.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Program.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Program.cs",
+              "RelativeToolTip": "CollaboratorService.API\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:01:59.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CollaboratorService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\appsettings.json",
+              "RelativeToolTip": "CollaboratorService.API\\appsettings.json",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T08:01:56.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CollaboratorController.cs",
+              "DocumentMoniker": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Controllers\\CollaboratorController.cs",
+              "RelativeDocumentMoniker": "CollaboratorService.API\\Controllers\\CollaboratorController.cs",
+              "ToolTip": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\CollaboratorService.API\\Controllers\\CollaboratorController.cs",
+              "RelativeToolTip": "CollaboratorService.API\\Controllers\\CollaboratorController.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAowAEBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:01:34.628Z",
               "EditorCaption": ""
             }
           ]

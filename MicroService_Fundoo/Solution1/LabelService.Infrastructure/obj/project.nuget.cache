@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TlhoMv2YPhA=",
+  "dgSpecHash": "31wKPXom2Z0=",
   "success": true,
   "projectFilePath": "C:\\Users\\gowth\\Downloads\\PROJECTS\\BRIDGELABZ\\BridgeLabz_Training_CARLZEISS\\MicroService_Fundoo\\Solution1\\LabelService.Infrastructure\\LabelService.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,8 @@
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.13\\microsoft.extensions.caching.abstractions.9.0.13.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.13\\microsoft.extensions.caching.memory.9.0.13.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
-    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
-    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.7\\microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.7\\microsoft.extensions.logging.abstractions.10.0.7.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.options\\9.0.13\\microsoft.extensions.options.9.0.13.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512",
     "C:\\Users\\gowth\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.16.0\\microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",

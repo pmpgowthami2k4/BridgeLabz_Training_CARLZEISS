@@ -556,7 +556,7 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -1417,6 +1417,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "DnsClient": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[3.7.1, )"
@@ -1775,6 +1779,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[10.0.6, )"

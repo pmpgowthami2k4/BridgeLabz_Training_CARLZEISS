@@ -51,5 +51,25 @@ namespace LabelService.Infrastructure.Repositories
             using var con = _factory.CreateConnection();
             return await con.ExecuteAsync(sql, new { Id = id });
         }
+
+        public async Task<IEnumerable<NoteLabelResponseDto>> GetNotesByLabelAsync(string labelName)
+        {
+            var sql = @"
+        SELECT 
+            nl.Id AS MappingId,
+            nl.NoteId,
+            nl.LabelId,
+            l.Name AS LabelName
+        FROM NoteLabels nl
+        INNER JOIN Labels l
+            ON nl.LabelId = l.Id
+        WHERE l.Name = @LabelName";
+
+            using var con = _factory.CreateConnection();
+
+            return await con.QueryAsync<NoteLabelResponseDto>(
+                sql,
+                new { LabelName = labelName });
+        }
     }
 }

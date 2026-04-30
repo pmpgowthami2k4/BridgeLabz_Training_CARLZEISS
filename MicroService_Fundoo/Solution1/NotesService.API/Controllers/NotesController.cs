@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Dapr.Client;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NotesService.Application.DTOs;
 using NotesService.Application.Interfaces;
@@ -9,7 +10,7 @@ namespace NotesService.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class NotesController : ControllerBase
 {
     private readonly INoteRepository _repo;
@@ -41,6 +42,7 @@ public class NotesController : ControllerBase
     }
 
     // GET ALL NOTES OF LOGGED USER
+    [AllowAnonymous]
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -79,6 +81,33 @@ public class NotesController : ControllerBase
             return NotFound("Note not found");
 
         return Ok("Note deleted successfully");
+    }
+
+    [HttpPost("state/save")]
+    public async Task<IActionResult> SaveState()
+    {
+        var daprClient = new DaprClientBuilder().Build();
+
+        var data = new
+        {
+            Id = "note1",
+            Title = "Hello from Dapr",
+            Content = "State store working!"
+        };
+
+        await daprClient.SaveStateAsync("statestore", "note1", data);
+
+        return Ok("State Saved");
+    }
+
+    [HttpGet("state/get")]
+    public async Task<IActionResult> GetState()
+    {
+        var daprClient = new DaprClientBuilder().Build();
+
+        var result = await daprClient.GetStateAsync<object>("statestore", "note1");
+
+        return Ok(result);
     }
 }
 
