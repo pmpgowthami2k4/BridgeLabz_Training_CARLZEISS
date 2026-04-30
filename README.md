@@ -1892,3 +1892,56 @@ This repository documents my daily learning progress during the BridgeLabz Train
 
 * GitHub Link:
   https://github.com/pmpgowthami2k4/BridgeLabz_Training_CARLZEISS/tree/MicroServices
+
+Here’s your **final README section to append** 👇
+
+---
+
+## 27.04.2026
+
+### What I Have Done
+
+* Started implementation of Dapr in Fundoo project
+
+### What I Will Do Next
+
+* Continue Dapr implementation
+
+### Issues Faced
+
+* None
+
+---
+
+## 28.04.2026
+
+### What I Have Done
+
+* Completed Dapr setup
+* Implemented Service Invocation in Notes service
+
+### What I Will Do Next
+
+* Continue Dapr implementation
+
+### Issues Faced
+
+* None
+
+---
+
+## 29.04.2026
+
+### What I Have Done
+
+* Implemented Dapr Pub/Sub in Collaborator service
+* Implemented State Management in Notes service
+
+### What I Will Do Next
+
+* Test all endpoints
+* Start Bookstore project
+
+### Issues Faced
+
+* None
